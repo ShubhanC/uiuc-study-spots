@@ -1,124 +1,124 @@
 Day,Hour,Building,Base_Popularity
-Monday,0,Grainger Library,7.856746193403639e-05
-Monday,1,Grainger Library,0.00025662891034542156
-Monday,2,Grainger Library,0.0007725308390962014
-Monday,3,Grainger Library,0.0021432530966590925
-Monday,4,Grainger Library,0.005479973820253201
-Monday,5,Grainger Library,0.01291311137382428
-Monday,6,Grainger Library,0.028043402094334167
-Monday,7,Grainger Library,0.05612778329681292
-Monday,8,Grainger Library,0.10353149167600872
-Monday,9,Grainger Library,0.176000718730264
-Monday,10,Grainger Library,0.27574255827733307
-Monday,11,Grainger Library,0.3981443425808371
-Monday,12,Grainger Library,0.5298155330169764
-Monday,13,Grainger Library,0.649764849674759
-Monday,14,Grainger Library,0.7344041625833905
-Monday,15,Grainger Library,0.765
-Monday,16,Grainger Library,0.7344041625833905
-Monday,17,Grainger Library,0.649764849674759
-Monday,18,Grainger Library,0.5298155330169764
-Monday,19,Grainger Library,0.3981443425808371
-Monday,20,Grainger Library,0.27574255827733307
-Monday,21,Grainger Library,0.176000718730264
-Monday,22,Grainger Library,0.10353149167600872
-Monday,23,Grainger Library,0.05612778329681292
-Tuesday,0,Grainger Library,7.856746193403639e-05
-Tuesday,1,Grainger Library,0.00025662891034542156
-Tuesday,2,Grainger Library,0.0007725308390962014
-Tuesday,3,Grainger Library,0.0021432530966590925
-Tuesday,4,Grainger Library,0.005479973820253201
-Tuesday,5,Grainger Library,0.01291311137382428
-Tuesday,6,Grainger Library,0.028043402094334167
-Tuesday,7,Grainger Library,0.05612778329681292
-Tuesday,8,Grainger Library,0.10353149167600872
-Tuesday,9,Grainger Library,0.176000718730264
-Tuesday,10,Grainger Library,0.27574255827733307
-Tuesday,11,Grainger Library,0.3981443425808371
-Tuesday,12,Grainger Library,0.5298155330169764
-Tuesday,13,Grainger Library,0.649764849674759
-Tuesday,14,Grainger Library,0.7344041625833905
-Tuesday,15,Grainger Library,0.765
-Tuesday,16,Grainger Library,0.7344041625833905
-Tuesday,17,Grainger Library,0.649764849674759
-Tuesday,18,Grainger Library,0.5298155330169764
-Tuesday,19,Grainger Library,0.3981443425808371
-Tuesday,20,Grainger Library,0.27574255827733307
-Tuesday,21,Grainger Library,0.176000718730264
-Tuesday,22,Grainger Library,0.10353149167600872
-Tuesday,23,Grainger Library,0.05612778329681292
-Wednesday,0,Grainger Library,9.243230815768986e-05
-Wednesday,1,Grainger Library,0.0003019163651122607
-Wednesday,2,Grainger Library,0.0009088598107014134
-Wednesday,3,Grainger Library,0.0025214742313636384
-Wednesday,4,Grainger Library,0.006447028023827296
-Wednesday,5,Grainger Library,0.015191895733910919
-Wednesday,6,Grainger Library,0.0329922377580402
-Wednesday,7,Grainger Library,0.06603268623154461
-Wednesday,8,Grainger Library,0.12180175491295143
-Wednesday,9,Grainger Library,0.20705966909442822
-Wednesday,10,Grainger Library,0.3244030097380389
-Wednesday,11,Grainger Library,0.4684051089186319
-Wednesday,12,Grainger Library,0.623312391784678
-Wednesday,13,Grainger Library,0.7644292349114812
-Wednesday,14,Grainger Library,0.86400489715693
-Wednesday,15,Grainger Library,0.9
-Wednesday,16,Grainger Library,0.86400489715693
-Wednesday,17,Grainger Library,0.7644292349114812
-Wednesday,18,Grainger Library,0.623312391784678
-Wednesday,19,Grainger Library,0.4684051089186319
-Wednesday,20,Grainger Library,0.3244030097380389
-Wednesday,21,Grainger Library,0.20705966909442822
-Wednesday,22,Grainger Library,0.12180175491295143
-Wednesday,23,Grainger Library,0.06603268623154461
-Thursday,0,Grainger Library,9.243230815768986e-05
-Thursday,1,Grainger Library,0.0003019163651122607
-Thursday,2,Grainger Library,0.0009088598107014134
-Thursday,3,Grainger Library,0.0025214742313636384
-Thursday,4,Grainger Library,0.006447028023827296
-Thursday,5,Grainger Library,0.015191895733910919
-Thursday,6,Grainger Library,0.0329922377580402
-Thursday,7,Grainger Library,0.06603268623154461
-Thursday,8,Grainger Library,0.12180175491295143
-Thursday,9,Grainger Library,0.20705966909442822
-Thursday,10,Grainger Library,0.3244030097380389
-Thursday,11,Grainger Library,0.4684051089186319
-Thursday,12,Grainger Library,0.623312391784678
-Thursday,13,Grainger Library,0.7644292349114812
-Thursday,14,Grainger Library,0.86400489715693
-Thursday,15,Grainger Library,0.9
-Thursday,16,Grainger Library,0.86400489715693
-Thursday,17,Grainger Library,0.7644292349114812
-Thursday,18,Grainger Library,0.623312391784678
-Thursday,19,Grainger Library,0.4684051089186319
-Thursday,20,Grainger Library,0.3244030097380389
-Thursday,21,Grainger Library,0.20705966909442822
-Thursday,22,Grainger Library,0.12180175491295143
-Thursday,23,Grainger Library,0.06603268623154461
-Friday,0,Grainger Library,9.243230815768986e-05
-Friday,1,Grainger Library,0.0003019163651122607
-Friday,2,Grainger Library,0.0009088598107014134
-Friday,3,Grainger Library,0.0025214742313636384
-Friday,4,Grainger Library,0.006447028023827296
-Friday,5,Grainger Library,0.015191895733910919
-Friday,6,Grainger Library,0.0329922377580402
-Friday,7,Grainger Library,0.06603268623154461
-Friday,8,Grainger Library,0.12180175491295143
-Friday,9,Grainger Library,0.20705966909442822
-Friday,10,Grainger Library,0.3244030097380389
-Friday,11,Grainger Library,0.4684051089186319
-Friday,12,Grainger Library,0.623312391784678
-Friday,13,Grainger Library,0.7644292349114812
-Friday,14,Grainger Library,0.86400489715693
-Friday,15,Grainger Library,0.9
-Friday,16,Grainger Library,0.86400489715693
-Friday,17,Grainger Library,0.7644292349114812
-Friday,18,Grainger Library,0.623312391784678
-Friday,19,Grainger Library,0.4684051089186319
-Friday,20,Grainger Library,0.3244030097380389
-Friday,21,Grainger Library,0.20705966909442822
-Friday,22,Grainger Library,0.12180175491295143
-Friday,23,Grainger Library,0.06603268623154461
+Monday,0,Grainger Library,6.983774394136568e-05
+Monday,1,Grainger Library,0.00022811458697370807
+Monday,2,Grainger Library,0.0006866940791966235
+Monday,3,Grainger Library,0.0019051138636969713
+Monday,4,Grainger Library,0.004871087840225068
+Monday,5,Grainger Library,0.011478321221177139
+Monday,6,Grainger Library,0.02492746852829704
+Monday,7,Grainger Library,0.04989136293050038
+Monday,8,Grainger Library,0.09202799260089664
+Monday,9,Grainger Library,0.1564450833157902
+Monday,10,Grainger Library,0.2451044962465183
+Monday,11,Grainger Library,0.35390608229407744
+Monday,12,Grainger Library,0.4709471404595345
+Monday,13,Grainger Library,0.5775687552664525
+Monday,14,Grainger Library,0.6528037000741249
+Monday,15,Grainger Library,0.68
+Monday,16,Grainger Library,0.6528037000741249
+Monday,17,Grainger Library,0.5775687552664525
+Monday,18,Grainger Library,0.4709471404595345
+Monday,19,Grainger Library,0.35390608229407744
+Monday,20,Grainger Library,0.2451044962465183
+Monday,21,Grainger Library,0.1564450833157902
+Monday,22,Grainger Library,0.09202799260089664
+Monday,23,Grainger Library,0.04989136293050038
+Tuesday,0,Grainger Library,6.983774394136568e-05
+Tuesday,1,Grainger Library,0.00022811458697370807
+Tuesday,2,Grainger Library,0.0006866940791966235
+Tuesday,3,Grainger Library,0.0019051138636969713
+Tuesday,4,Grainger Library,0.004871087840225068
+Tuesday,5,Grainger Library,0.011478321221177139
+Tuesday,6,Grainger Library,0.02492746852829704
+Tuesday,7,Grainger Library,0.04989136293050038
+Tuesday,8,Grainger Library,0.09202799260089664
+Tuesday,9,Grainger Library,0.1564450833157902
+Tuesday,10,Grainger Library,0.2451044962465183
+Tuesday,11,Grainger Library,0.35390608229407744
+Tuesday,12,Grainger Library,0.4709471404595345
+Tuesday,13,Grainger Library,0.5775687552664525
+Tuesday,14,Grainger Library,0.6528037000741249
+Tuesday,15,Grainger Library,0.68
+Tuesday,16,Grainger Library,0.6528037000741249
+Tuesday,17,Grainger Library,0.5775687552664525
+Tuesday,18,Grainger Library,0.4709471404595345
+Tuesday,19,Grainger Library,0.35390608229407744
+Tuesday,20,Grainger Library,0.2451044962465183
+Tuesday,21,Grainger Library,0.1564450833157902
+Tuesday,22,Grainger Library,0.09202799260089664
+Tuesday,23,Grainger Library,0.04989136293050038
+Wednesday,0,Grainger Library,8.216205169572432e-05
+Wednesday,1,Grainger Library,0.0002683701023220095
+Wednesday,2,Grainger Library,0.0008078753872901453
+Wednesday,3,Grainger Library,0.0022413104278787895
+Wednesday,4,Grainger Library,0.005730691576735374
+Wednesday,5,Grainger Library,0.013503907319031928
+Wednesday,6,Grainger Library,0.029326433562702398
+Wednesday,7,Grainger Library,0.058695721094706325
+Wednesday,8,Grainger Library,0.10826822658929017
+Wednesday,9,Grainger Library,0.1840530391950473
+Wednesday,10,Grainger Library,0.2883582308782568
+Wednesday,11,Grainger Library,0.4163600968165617
+Wednesday,12,Grainger Library,0.5540554593641582
+Wednesday,13,Grainger Library,0.67949265325465
+Wednesday,14,Grainger Library,0.7680043530283822
+Wednesday,15,Grainger Library,0.8
+Wednesday,16,Grainger Library,0.7680043530283822
+Wednesday,17,Grainger Library,0.67949265325465
+Wednesday,18,Grainger Library,0.5540554593641582
+Wednesday,19,Grainger Library,0.4163600968165617
+Wednesday,20,Grainger Library,0.2883582308782568
+Wednesday,21,Grainger Library,0.1840530391950473
+Wednesday,22,Grainger Library,0.10826822658929017
+Wednesday,23,Grainger Library,0.058695721094706325
+Thursday,0,Grainger Library,8.216205169572432e-05
+Thursday,1,Grainger Library,0.0002683701023220095
+Thursday,2,Grainger Library,0.0008078753872901453
+Thursday,3,Grainger Library,0.0022413104278787895
+Thursday,4,Grainger Library,0.005730691576735374
+Thursday,5,Grainger Library,0.013503907319031928
+Thursday,6,Grainger Library,0.029326433562702398
+Thursday,7,Grainger Library,0.058695721094706325
+Thursday,8,Grainger Library,0.10826822658929017
+Thursday,9,Grainger Library,0.1840530391950473
+Thursday,10,Grainger Library,0.2883582308782568
+Thursday,11,Grainger Library,0.4163600968165617
+Thursday,12,Grainger Library,0.5540554593641582
+Thursday,13,Grainger Library,0.67949265325465
+Thursday,14,Grainger Library,0.7680043530283822
+Thursday,15,Grainger Library,0.8
+Thursday,16,Grainger Library,0.7680043530283822
+Thursday,17,Grainger Library,0.67949265325465
+Thursday,18,Grainger Library,0.5540554593641582
+Thursday,19,Grainger Library,0.4163600968165617
+Thursday,20,Grainger Library,0.2883582308782568
+Thursday,21,Grainger Library,0.1840530391950473
+Thursday,22,Grainger Library,0.10826822658929017
+Thursday,23,Grainger Library,0.058695721094706325
+Friday,0,Grainger Library,8.216205169572432e-05
+Friday,1,Grainger Library,0.0002683701023220095
+Friday,2,Grainger Library,0.0008078753872901453
+Friday,3,Grainger Library,0.0022413104278787895
+Friday,4,Grainger Library,0.005730691576735374
+Friday,5,Grainger Library,0.013503907319031928
+Friday,6,Grainger Library,0.029326433562702398
+Friday,7,Grainger Library,0.058695721094706325
+Friday,8,Grainger Library,0.10826822658929017
+Friday,9,Grainger Library,0.1840530391950473
+Friday,10,Grainger Library,0.2883582308782568
+Friday,11,Grainger Library,0.4163600968165617
+Friday,12,Grainger Library,0.5540554593641582
+Friday,13,Grainger Library,0.67949265325465
+Friday,14,Grainger Library,0.7680043530283822
+Friday,15,Grainger Library,0.8
+Friday,16,Grainger Library,0.7680043530283822
+Friday,17,Grainger Library,0.67949265325465
+Friday,18,Grainger Library,0.5540554593641582
+Friday,19,Grainger Library,0.4163600968165617
+Friday,20,Grainger Library,0.2883582308782568
+Friday,21,Grainger Library,0.1840530391950473
+Friday,22,Grainger Library,0.10826822658929017
+Friday,23,Grainger Library,0.058695721094706325
 Saturday,0,Grainger Library,0.0
 Saturday,1,Grainger Library,0.0
 Saturday,2,Grainger Library,0.0
@@ -129,20 +129,20 @@ Saturday,6,Grainger Library,0.0
 Saturday,7,Grainger Library,0.0
 Saturday,8,Grainger Library,0.0
 Saturday,9,Grainger Library,0.0
-Saturday,10,Grainger Library,0.16544553496639983
-Saturday,11,Grainger Library,0.23888660554850225
-Saturday,12,Grainger Library,0.31788931981018576
-Saturday,13,Grainger Library,0.3898589098048554
-Saturday,14,Grainger Library,0.44064249755003426
-Saturday,15,Grainger Library,0.45899999999999996
-Saturday,16,Grainger Library,0.44064249755003426
-Saturday,17,Grainger Library,0.3898589098048554
-Saturday,18,Grainger Library,0.31788931981018576
-Saturday,19,Grainger Library,0.23888660554850225
-Saturday,20,Grainger Library,0.16544553496639983
-Saturday,21,Grainger Library,0.10560043123815838
-Saturday,22,Grainger Library,0.062118895005605225
-Saturday,23,Grainger Library,0.03367666997808775
+Saturday,10,Grainger Library,0.14706269774791098
+Saturday,11,Grainger Library,0.21234364937644648
+Saturday,12,Grainger Library,0.2825682842757207
+Saturday,13,Grainger Library,0.3465412531598715
+Saturday,14,Grainger Library,0.39168222004447495
+Saturday,15,Grainger Library,0.40800000000000003
+Saturday,16,Grainger Library,0.39168222004447495
+Saturday,17,Grainger Library,0.3465412531598715
+Saturday,18,Grainger Library,0.2825682842757207
+Saturday,19,Grainger Library,0.21234364937644648
+Saturday,20,Grainger Library,0.14706269774791098
+Saturday,21,Grainger Library,0.09386704998947412
+Saturday,22,Grainger Library,0.05521679556053798
+Saturday,23,Grainger Library,0.029934817758300227
 Sunday,0,Grainger Library,0.0
 Sunday,1,Grainger Library,0.0
 Sunday,2,Grainger Library,0.0
@@ -153,134 +153,134 @@ Sunday,6,Grainger Library,0.0
 Sunday,7,Grainger Library,0.0
 Sunday,8,Grainger Library,0.0
 Sunday,9,Grainger Library,0.0
-Sunday,10,Grainger Library,0.16544553496639983
-Sunday,11,Grainger Library,0.23888660554850225
-Sunday,12,Grainger Library,0.31788931981018576
-Sunday,13,Grainger Library,0.3898589098048554
-Sunday,14,Grainger Library,0.44064249755003426
-Sunday,15,Grainger Library,0.45899999999999996
-Sunday,16,Grainger Library,0.44064249755003426
-Sunday,17,Grainger Library,0.3898589098048554
-Sunday,18,Grainger Library,0.31788931981018576
-Sunday,19,Grainger Library,0.23888660554850225
-Sunday,20,Grainger Library,0.16544553496639983
-Sunday,21,Grainger Library,0.10560043123815838
-Sunday,22,Grainger Library,0.062118895005605225
-Sunday,23,Grainger Library,0.03367666997808775
-Monday,0,Funk Library,7.110109514526852e-05
-Monday,1,Funk Library,0.00028514323371713507
+Sunday,10,Grainger Library,0.14706269774791098
+Sunday,11,Grainger Library,0.21234364937644648
+Sunday,12,Grainger Library,0.2825682842757207
+Sunday,13,Grainger Library,0.3465412531598715
+Sunday,14,Grainger Library,0.39168222004447495
+Sunday,15,Grainger Library,0.40800000000000003
+Sunday,16,Grainger Library,0.39168222004447495
+Sunday,17,Grainger Library,0.3465412531598715
+Sunday,18,Grainger Library,0.2825682842757207
+Sunday,19,Grainger Library,0.21234364937644648
+Sunday,20,Grainger Library,0.14706269774791098
+Sunday,21,Grainger Library,0.09386704998947412
+Sunday,22,Grainger Library,0.05521679556053798
+Sunday,23,Grainger Library,0.029934817758300227
+Monday,0,Funk Library,6.273626042229575e-05
+Monday,1,Funk Library,0.0002515969709268839
 Monday,2,Funk Library,0.0
 Monday,3,Funk Library,0.0
 Monday,4,Funk Library,0.0
 Monday,5,Funk Library,0.0
 Monday,6,Funk Library,0.0
 Monday,7,Funk Library,0.0
-Monday,8,Funk Library,0.21194937746070172
-Monday,9,Funk Library,0.34944544693110935
-Monday,10,Funk Library,0.5155510607557384
-Monday,11,Funk Library,0.6806267924792868
-Monday,12,Funk Library,0.8040655485707506
-Monday,13,Funk Library,0.85
-Monday,14,Funk Library,0.8040655485707506
-Monday,15,Funk Library,0.6806267924792868
-Monday,16,Funk Library,0.5155510607557384
-Monday,17,Funk Library,0.34944544693110935
-Monday,18,Funk Library,0.21194937746070172
-Monday,19,Funk Library,0.1150349907511208
-Monday,20,Funk Library,0.05586924932405088
-Monday,21,Funk Library,0.02428067566686782
-Monday,22,Funk Library,0.00944264705750596
-Monday,23,Funk Library,0.0032860321185518835
-Tuesday,0,Funk Library,1.5864798746492456e-05
-Tuesday,1,Funk Library,7.110109514526852e-05
+Monday,8,Funk Library,0.18701415658297213
+Monday,9,Funk Library,0.3083342178803906
+Monday,10,Funk Library,0.45489799478447507
+Monday,11,Funk Library,0.600553052187606
+Monday,12,Funk Library,0.7094696016800741
+Monday,13,Funk Library,0.75
+Monday,14,Funk Library,0.7094696016800741
+Monday,15,Funk Library,0.600553052187606
+Monday,16,Funk Library,0.45489799478447507
+Monday,17,Funk Library,0.3083342178803906
+Monday,18,Funk Library,0.18701415658297213
+Monday,19,Funk Library,0.10150146242745953
+Monday,20,Funk Library,0.049296396462397835
+Monday,21,Funk Library,0.021424125588412783
+Monday,22,Funk Library,0.008331747403681729
+Monday,23,Funk Library,0.0028994401046046033
+Tuesday,0,Funk Library,1.3998351835140402e-05
+Tuesday,1,Funk Library,6.273626042229575e-05
 Tuesday,2,Funk Library,0.0
 Tuesday,3,Funk Library,0.0
 Tuesday,4,Funk Library,0.0
 Tuesday,5,Funk Library,0.0
 Tuesday,6,Funk Library,0.0
 Tuesday,7,Funk Library,0.0
-Tuesday,8,Funk Library,0.1150349907511208
-Tuesday,9,Funk Library,0.21194937746070172
-Tuesday,10,Funk Library,0.34944544693110935
-Tuesday,11,Funk Library,0.5155510607557384
-Tuesday,12,Funk Library,0.6806267924792868
-Tuesday,13,Funk Library,0.8040655485707506
-Tuesday,14,Funk Library,0.85
-Tuesday,15,Funk Library,0.8040655485707506
-Tuesday,16,Funk Library,0.6806267924792868
-Tuesday,17,Funk Library,0.5155510607557384
-Tuesday,18,Funk Library,0.34944544693110935
-Tuesday,19,Funk Library,0.21194937746070172
-Tuesday,20,Funk Library,0.1150349907511208
-Tuesday,21,Funk Library,0.05586924932405088
-Tuesday,22,Funk Library,0.02428067566686782
-Tuesday,23,Funk Library,0.00944264705750596
-Wednesday,0,Funk Library,7.110109514526852e-05
-Wednesday,1,Funk Library,0.00028514323371713507
+Tuesday,8,Funk Library,0.10150146242745953
+Tuesday,9,Funk Library,0.18701415658297213
+Tuesday,10,Funk Library,0.3083342178803906
+Tuesday,11,Funk Library,0.45489799478447507
+Tuesday,12,Funk Library,0.600553052187606
+Tuesday,13,Funk Library,0.7094696016800741
+Tuesday,14,Funk Library,0.75
+Tuesday,15,Funk Library,0.7094696016800741
+Tuesday,16,Funk Library,0.600553052187606
+Tuesday,17,Funk Library,0.45489799478447507
+Tuesday,18,Funk Library,0.3083342178803906
+Tuesday,19,Funk Library,0.18701415658297213
+Tuesday,20,Funk Library,0.10150146242745953
+Tuesday,21,Funk Library,0.049296396462397835
+Tuesday,22,Funk Library,0.021424125588412783
+Tuesday,23,Funk Library,0.008331747403681729
+Wednesday,0,Funk Library,6.273626042229575e-05
+Wednesday,1,Funk Library,0.0002515969709268839
 Wednesday,2,Funk Library,0.0
 Wednesday,3,Funk Library,0.0
 Wednesday,4,Funk Library,0.0
 Wednesday,5,Funk Library,0.0
 Wednesday,6,Funk Library,0.0
 Wednesday,7,Funk Library,0.0
-Wednesday,8,Funk Library,0.21194937746070172
-Wednesday,9,Funk Library,0.34944544693110935
-Wednesday,10,Funk Library,0.5155510607557384
-Wednesday,11,Funk Library,0.6806267924792868
-Wednesday,12,Funk Library,0.8040655485707506
-Wednesday,13,Funk Library,0.85
-Wednesday,14,Funk Library,0.8040655485707506
-Wednesday,15,Funk Library,0.6806267924792868
-Wednesday,16,Funk Library,0.5155510607557384
-Wednesday,17,Funk Library,0.34944544693110935
-Wednesday,18,Funk Library,0.21194937746070172
-Wednesday,19,Funk Library,0.1150349907511208
-Wednesday,20,Funk Library,0.05586924932405088
-Wednesday,21,Funk Library,0.02428067566686782
-Wednesday,22,Funk Library,0.00944264705750596
-Wednesday,23,Funk Library,0.0032860321185518835
-Thursday,0,Funk Library,1.5864798746492456e-05
-Thursday,1,Funk Library,7.110109514526852e-05
+Wednesday,8,Funk Library,0.18701415658297213
+Wednesday,9,Funk Library,0.3083342178803906
+Wednesday,10,Funk Library,0.45489799478447507
+Wednesday,11,Funk Library,0.600553052187606
+Wednesday,12,Funk Library,0.7094696016800741
+Wednesday,13,Funk Library,0.75
+Wednesday,14,Funk Library,0.7094696016800741
+Wednesday,15,Funk Library,0.600553052187606
+Wednesday,16,Funk Library,0.45489799478447507
+Wednesday,17,Funk Library,0.3083342178803906
+Wednesday,18,Funk Library,0.18701415658297213
+Wednesday,19,Funk Library,0.10150146242745953
+Wednesday,20,Funk Library,0.049296396462397835
+Wednesday,21,Funk Library,0.021424125588412783
+Wednesday,22,Funk Library,0.008331747403681729
+Wednesday,23,Funk Library,0.0028994401046046033
+Thursday,0,Funk Library,1.3998351835140402e-05
+Thursday,1,Funk Library,6.273626042229575e-05
 Thursday,2,Funk Library,0.0
 Thursday,3,Funk Library,0.0
 Thursday,4,Funk Library,0.0
 Thursday,5,Funk Library,0.0
 Thursday,6,Funk Library,0.0
 Thursday,7,Funk Library,0.0
-Thursday,8,Funk Library,0.1150349907511208
-Thursday,9,Funk Library,0.21194937746070172
-Thursday,10,Funk Library,0.34944544693110935
-Thursday,11,Funk Library,0.5155510607557384
-Thursday,12,Funk Library,0.6806267924792868
-Thursday,13,Funk Library,0.8040655485707506
-Thursday,14,Funk Library,0.85
-Thursday,15,Funk Library,0.8040655485707506
-Thursday,16,Funk Library,0.6806267924792868
-Thursday,17,Funk Library,0.5155510607557384
-Thursday,18,Funk Library,0.34944544693110935
-Thursday,19,Funk Library,0.21194937746070172
-Thursday,20,Funk Library,0.1150349907511208
-Thursday,21,Funk Library,0.05586924932405088
-Thursday,22,Funk Library,0.02428067566686782
-Thursday,23,Funk Library,0.00944264705750596
-Friday,0,Funk Library,0.00028514323371713507
-Friday,1,Funk Library,0.0010232809956039733
+Thursday,8,Funk Library,0.10150146242745953
+Thursday,9,Funk Library,0.18701415658297213
+Thursday,10,Funk Library,0.3083342178803906
+Thursday,11,Funk Library,0.45489799478447507
+Thursday,12,Funk Library,0.600553052187606
+Thursday,13,Funk Library,0.7094696016800741
+Thursday,14,Funk Library,0.75
+Thursday,15,Funk Library,0.7094696016800741
+Thursday,16,Funk Library,0.600553052187606
+Thursday,17,Funk Library,0.45489799478447507
+Thursday,18,Funk Library,0.3083342178803906
+Thursday,19,Funk Library,0.18701415658297213
+Thursday,20,Funk Library,0.10150146242745953
+Thursday,21,Funk Library,0.049296396462397835
+Thursday,22,Funk Library,0.021424125588412783
+Thursday,23,Funk Library,0.008331747403681729
+Friday,0,Funk Library,0.0002515969709268839
+Friday,1,Funk Library,0.000902894996121153
 Friday,2,Funk Library,0.0
 Friday,3,Funk Library,0.0
 Friday,4,Funk Library,0.0
 Friday,5,Funk Library,0.0
 Friday,6,Funk Library,0.0
 Friday,7,Funk Library,0.0
-Friday,8,Funk Library,0.34944544693110935
-Friday,9,Funk Library,0.5155510607557384
-Friday,10,Funk Library,0.6806267924792868
-Friday,11,Funk Library,0.8040655485707506
-Friday,12,Funk Library,0.85
-Friday,13,Funk Library,0.8040655485707506
-Friday,14,Funk Library,0.6806267924792868
-Friday,15,Funk Library,0.5155510607557384
-Friday,16,Funk Library,0.34944544693110935
-Friday,17,Funk Library,0.21194937746070172
+Friday,8,Funk Library,0.3083342178803906
+Friday,9,Funk Library,0.45489799478447507
+Friday,10,Funk Library,0.600553052187606
+Friday,11,Funk Library,0.7094696016800741
+Friday,12,Funk Library,0.75
+Friday,13,Funk Library,0.7094696016800741
+Friday,14,Funk Library,0.600553052187606
+Friday,15,Funk Library,0.45489799478447507
+Friday,16,Funk Library,0.3083342178803906
+Friday,17,Funk Library,0.18701415658297213
 Friday,18,Funk Library,0.0
 Friday,19,Funk Library,0.0
 Friday,20,Funk Library,0.0
@@ -343,21 +343,21 @@ Monday,4,Main Library,0.0
 Monday,5,Main Library,0.0
 Monday,6,Main Library,0.0
 Monday,7,Main Library,0.0
-Monday,8,Main Library,0.20705966909442822
-Monday,9,Main Library,0.3244030097380389
-Monday,10,Main Library,0.4684051089186319
-Monday,11,Main Library,0.623312391784678
-Monday,12,Main Library,0.7644292349114812
-Monday,13,Main Library,0.86400489715693
-Monday,14,Main Library,0.9
-Monday,15,Main Library,0.86400489715693
-Monday,16,Main Library,0.7644292349114812
-Monday,17,Main Library,0.623312391784678
-Monday,18,Main Library,0.4684051089186319
-Monday,19,Main Library,0.3244030097380389
-Monday,20,Main Library,0.20705966909442822
-Monday,21,Main Library,0.12180175491295143
-Monday,22,Main Library,0.06603268623154461
+Monday,8,Main Library,0.17254972424535683
+Monday,9,Main Library,0.27033584144836575
+Monday,10,Main Library,0.39033759076552654
+Monday,11,Main Library,0.5194269931538984
+Monday,12,Main Library,0.6370243624262344
+Monday,13,Main Library,0.7200040809641083
+Monday,14,Main Library,0.75
+Monday,15,Main Library,0.7200040809641083
+Monday,16,Main Library,0.6370243624262344
+Monday,17,Main Library,0.5194269931538984
+Monday,18,Main Library,0.39033759076552654
+Monday,19,Main Library,0.27033584144836575
+Monday,20,Main Library,0.17254972424535683
+Monday,21,Main Library,0.10150146242745953
+Monday,22,Main Library,0.05502723852628717
 Monday,23,Main Library,0.0
 Tuesday,0,Main Library,0.0
 Tuesday,1,Main Library,0.0
@@ -367,21 +367,21 @@ Tuesday,4,Main Library,0.0
 Tuesday,5,Main Library,0.0
 Tuesday,6,Main Library,0.0
 Tuesday,7,Main Library,0.0
-Tuesday,8,Main Library,0.20705966909442822
-Tuesday,9,Main Library,0.3244030097380389
-Tuesday,10,Main Library,0.4684051089186319
-Tuesday,11,Main Library,0.623312391784678
-Tuesday,12,Main Library,0.7644292349114812
-Tuesday,13,Main Library,0.86400489715693
-Tuesday,14,Main Library,0.9
-Tuesday,15,Main Library,0.86400489715693
-Tuesday,16,Main Library,0.7644292349114812
-Tuesday,17,Main Library,0.623312391784678
-Tuesday,18,Main Library,0.4684051089186319
-Tuesday,19,Main Library,0.3244030097380389
-Tuesday,20,Main Library,0.20705966909442822
-Tuesday,21,Main Library,0.12180175491295143
-Tuesday,22,Main Library,0.06603268623154461
+Tuesday,8,Main Library,0.17254972424535683
+Tuesday,9,Main Library,0.27033584144836575
+Tuesday,10,Main Library,0.39033759076552654
+Tuesday,11,Main Library,0.5194269931538984
+Tuesday,12,Main Library,0.6370243624262344
+Tuesday,13,Main Library,0.7200040809641083
+Tuesday,14,Main Library,0.75
+Tuesday,15,Main Library,0.7200040809641083
+Tuesday,16,Main Library,0.6370243624262344
+Tuesday,17,Main Library,0.5194269931538984
+Tuesday,18,Main Library,0.39033759076552654
+Tuesday,19,Main Library,0.27033584144836575
+Tuesday,20,Main Library,0.17254972424535683
+Tuesday,21,Main Library,0.10150146242745953
+Tuesday,22,Main Library,0.05502723852628717
 Tuesday,23,Main Library,0.0
 Wednesday,0,Main Library,0.0
 Wednesday,1,Main Library,0.0
@@ -391,21 +391,21 @@ Wednesday,4,Main Library,0.0
 Wednesday,5,Main Library,0.0
 Wednesday,6,Main Library,0.0
 Wednesday,7,Main Library,0.0
-Wednesday,8,Main Library,0.20705966909442822
-Wednesday,9,Main Library,0.3244030097380389
-Wednesday,10,Main Library,0.4684051089186319
-Wednesday,11,Main Library,0.623312391784678
-Wednesday,12,Main Library,0.7644292349114812
-Wednesday,13,Main Library,0.86400489715693
-Wednesday,14,Main Library,0.9
-Wednesday,15,Main Library,0.86400489715693
-Wednesday,16,Main Library,0.7644292349114812
-Wednesday,17,Main Library,0.623312391784678
-Wednesday,18,Main Library,0.4684051089186319
-Wednesday,19,Main Library,0.3244030097380389
-Wednesday,20,Main Library,0.20705966909442822
-Wednesday,21,Main Library,0.12180175491295143
-Wednesday,22,Main Library,0.06603268623154461
+Wednesday,8,Main Library,0.17254972424535683
+Wednesday,9,Main Library,0.27033584144836575
+Wednesday,10,Main Library,0.39033759076552654
+Wednesday,11,Main Library,0.5194269931538984
+Wednesday,12,Main Library,0.6370243624262344
+Wednesday,13,Main Library,0.7200040809641083
+Wednesday,14,Main Library,0.75
+Wednesday,15,Main Library,0.7200040809641083
+Wednesday,16,Main Library,0.6370243624262344
+Wednesday,17,Main Library,0.5194269931538984
+Wednesday,18,Main Library,0.39033759076552654
+Wednesday,19,Main Library,0.27033584144836575
+Wednesday,20,Main Library,0.17254972424535683
+Wednesday,21,Main Library,0.10150146242745953
+Wednesday,22,Main Library,0.05502723852628717
 Wednesday,23,Main Library,0.0
 Thursday,0,Main Library,0.0
 Thursday,1,Main Library,0.0
@@ -415,21 +415,21 @@ Thursday,4,Main Library,0.0
 Thursday,5,Main Library,0.0
 Thursday,6,Main Library,0.0
 Thursday,7,Main Library,0.0
-Thursday,8,Main Library,0.20705966909442822
-Thursday,9,Main Library,0.3244030097380389
-Thursday,10,Main Library,0.4684051089186319
-Thursday,11,Main Library,0.623312391784678
-Thursday,12,Main Library,0.7644292349114812
-Thursday,13,Main Library,0.86400489715693
-Thursday,14,Main Library,0.9
-Thursday,15,Main Library,0.86400489715693
-Thursday,16,Main Library,0.7644292349114812
-Thursday,17,Main Library,0.623312391784678
-Thursday,18,Main Library,0.4684051089186319
-Thursday,19,Main Library,0.3244030097380389
-Thursday,20,Main Library,0.20705966909442822
-Thursday,21,Main Library,0.12180175491295143
-Thursday,22,Main Library,0.06603268623154461
+Thursday,8,Main Library,0.17254972424535683
+Thursday,9,Main Library,0.27033584144836575
+Thursday,10,Main Library,0.39033759076552654
+Thursday,11,Main Library,0.5194269931538984
+Thursday,12,Main Library,0.6370243624262344
+Thursday,13,Main Library,0.7200040809641083
+Thursday,14,Main Library,0.75
+Thursday,15,Main Library,0.7200040809641083
+Thursday,16,Main Library,0.6370243624262344
+Thursday,17,Main Library,0.5194269931538984
+Thursday,18,Main Library,0.39033759076552654
+Thursday,19,Main Library,0.27033584144836575
+Thursday,20,Main Library,0.17254972424535683
+Thursday,21,Main Library,0.10150146242745953
+Thursday,22,Main Library,0.05502723852628717
 Thursday,23,Main Library,0.0
 Friday,0,Main Library,0.0
 Friday,1,Main Library,0.0
@@ -439,16 +439,16 @@ Friday,4,Main Library,0.0
 Friday,5,Main Library,0.0
 Friday,6,Main Library,0.0
 Friday,7,Main Library,0.0
-Friday,8,Main Library,0.20705966909442822
-Friday,9,Main Library,0.3244030097380389
-Friday,10,Main Library,0.4684051089186319
-Friday,11,Main Library,0.623312391784678
-Friday,12,Main Library,0.7644292349114812
-Friday,13,Main Library,0.86400489715693
-Friday,14,Main Library,0.9
-Friday,15,Main Library,0.86400489715693
-Friday,16,Main Library,0.7644292349114812
-Friday,17,Main Library,0.623312391784678
+Friday,8,Main Library,0.17254972424535683
+Friday,9,Main Library,0.27033584144836575
+Friday,10,Main Library,0.39033759076552654
+Friday,11,Main Library,0.5194269931538984
+Friday,12,Main Library,0.6370243624262344
+Friday,13,Main Library,0.7200040809641083
+Friday,14,Main Library,0.75
+Friday,15,Main Library,0.7200040809641083
+Friday,16,Main Library,0.6370243624262344
+Friday,17,Main Library,0.5194269931538984
 Friday,18,Main Library,0.0
 Friday,19,Main Library,0.0
 Friday,20,Main Library,0.0
@@ -468,10 +468,10 @@ Saturday,9,Main Library,0.0
 Saturday,10,Main Library,0.0
 Saturday,11,Main Library,0.0
 Saturday,12,Main Library,0.0
-Saturday,13,Main Library,0.23040130590851465
-Saturday,14,Main Library,0.24
-Saturday,15,Main Library,0.23040130590851465
-Saturday,16,Main Library,0.203847795976395
+Saturday,13,Main Library,0.21600122428923246
+Saturday,14,Main Library,0.22499999999999998
+Saturday,15,Main Library,0.21600122428923246
+Saturday,16,Main Library,0.1911073087278703
 Saturday,17,Main Library,0.0
 Saturday,18,Main Library,0.0
 Saturday,19,Main Library,0.0
@@ -492,16 +492,16 @@ Sunday,9,Main Library,0.0
 Sunday,10,Main Library,0.0
 Sunday,11,Main Library,0.0
 Sunday,12,Main Library,0.0
-Sunday,13,Main Library,0.23040130590851465
-Sunday,14,Main Library,0.24
-Sunday,15,Main Library,0.23040130590851465
-Sunday,16,Main Library,0.203847795976395
-Sunday,17,Main Library,0.16621663780924747
-Sunday,18,Main Library,0.1249080290449685
-Sunday,19,Main Library,0.08650746926347704
-Sunday,20,Main Library,0.05521591175851419
-Sunday,21,Main Library,0.032480467976787046
-Sunday,22,Main Library,0.017608716328411895
+Sunday,13,Main Library,0.21600122428923246
+Sunday,14,Main Library,0.22499999999999998
+Sunday,15,Main Library,0.21600122428923246
+Sunday,16,Main Library,0.1911073087278703
+Sunday,17,Main Library,0.15582809794616947
+Sunday,18,Main Library,0.11710127722965796
+Sunday,19,Main Library,0.08110075243450972
+Sunday,20,Main Library,0.05176491727360705
+Sunday,21,Main Library,0.030450438728237855
+Sunday,22,Main Library,0.016508171557886153
 Sunday,23,Main Library,0.0
 Monday,0,Illini Union,0.0
 Monday,1,Illini Union,0.0
@@ -510,22 +510,22 @@ Monday,3,Illini Union,0.0
 Monday,4,Illini Union,0.0
 Monday,5,Illini Union,0.0
 Monday,6,Illini Union,0.0
-Monday,7,Illini Union,0.03514954689872594
-Monday,8,Illini Union,0.10826822658929017
-Monday,9,Illini Union,0.2597219738866798
-Monday,10,Illini Union,0.4852245277701068
-Monday,11,Illini Union,0.7059975220676764
-Monday,12,Illini Union,0.8
-Monday,13,Illini Union,0.7059975220676764
-Monday,14,Illini Union,0.4852245277701068
-Monday,15,Illini Union,0.42457146179884336
-Monday,16,Illini Union,0.5605161820417656
-Monday,17,Illini Union,0.6621716282347357
-Monday,18,Illini Union,0.7
-Monday,19,Illini Union,0.6621716282347357
-Monday,20,Illini Union,0.5605161820417656
-Monday,21,Illini Union,0.42457146179884336
-Monday,22,Illini Union,0.2877786033550312
+Monday,7,Illini Union,0.032952700217555565
+Monday,8,Illini Union,0.10150146242745953
+Monday,9,Illini Union,0.2434893505187623
+Monday,10,Illini Union,0.45489799478447507
+Monday,11,Illini Union,0.6618726769384466
+Monday,12,Illini Union,0.75
+Monday,13,Illini Union,0.6618726769384466
+Monday,14,Illini Union,0.45489799478447507
+Monday,15,Illini Union,0.3942449288132117
+Monday,16,Illini Union,0.5204793118959252
+Monday,17,Illini Union,0.6148736547893975
+Monday,18,Illini Union,0.65
+Monday,19,Illini Union,0.6148736547893975
+Monday,20,Illini Union,0.5204793118959252
+Monday,21,Illini Union,0.3942449288132117
+Monday,22,Illini Union,0.2672229888296718
 Monday,23,Illini Union,0.0
 Tuesday,0,Illini Union,0.0
 Tuesday,1,Illini Union,0.0
@@ -534,22 +534,22 @@ Tuesday,3,Illini Union,0.0
 Tuesday,4,Illini Union,0.0
 Tuesday,5,Illini Union,0.0
 Tuesday,6,Illini Union,0.0
-Tuesday,7,Illini Union,0.03514954689872594
-Tuesday,8,Illini Union,0.10826822658929017
-Tuesday,9,Illini Union,0.2597219738866798
-Tuesday,10,Illini Union,0.4852245277701068
-Tuesday,11,Illini Union,0.7059975220676764
-Tuesday,12,Illini Union,0.8
-Tuesday,13,Illini Union,0.7059975220676764
-Tuesday,14,Illini Union,0.4852245277701068
-Tuesday,15,Illini Union,0.42457146179884336
-Tuesday,16,Illini Union,0.5605161820417656
-Tuesday,17,Illini Union,0.6621716282347357
-Tuesday,18,Illini Union,0.7
-Tuesday,19,Illini Union,0.6621716282347357
-Tuesday,20,Illini Union,0.5605161820417656
-Tuesday,21,Illini Union,0.42457146179884336
-Tuesday,22,Illini Union,0.2877786033550312
+Tuesday,7,Illini Union,0.032952700217555565
+Tuesday,8,Illini Union,0.10150146242745953
+Tuesday,9,Illini Union,0.2434893505187623
+Tuesday,10,Illini Union,0.45489799478447507
+Tuesday,11,Illini Union,0.6618726769384466
+Tuesday,12,Illini Union,0.75
+Tuesday,13,Illini Union,0.6618726769384466
+Tuesday,14,Illini Union,0.45489799478447507
+Tuesday,15,Illini Union,0.3942449288132117
+Tuesday,16,Illini Union,0.5204793118959252
+Tuesday,17,Illini Union,0.6148736547893975
+Tuesday,18,Illini Union,0.65
+Tuesday,19,Illini Union,0.6148736547893975
+Tuesday,20,Illini Union,0.5204793118959252
+Tuesday,21,Illini Union,0.3942449288132117
+Tuesday,22,Illini Union,0.2672229888296718
 Tuesday,23,Illini Union,0.0
 Wednesday,0,Illini Union,0.0
 Wednesday,1,Illini Union,0.0
@@ -558,22 +558,22 @@ Wednesday,3,Illini Union,0.0
 Wednesday,4,Illini Union,0.0
 Wednesday,5,Illini Union,0.0
 Wednesday,6,Illini Union,0.0
-Wednesday,7,Illini Union,0.03514954689872594
-Wednesday,8,Illini Union,0.10826822658929017
-Wednesday,9,Illini Union,0.2597219738866798
-Wednesday,10,Illini Union,0.4852245277701068
-Wednesday,11,Illini Union,0.7059975220676764
-Wednesday,12,Illini Union,0.8
-Wednesday,13,Illini Union,0.7059975220676764
-Wednesday,14,Illini Union,0.4852245277701068
-Wednesday,15,Illini Union,0.42457146179884336
-Wednesday,16,Illini Union,0.5605161820417656
-Wednesday,17,Illini Union,0.6621716282347357
-Wednesday,18,Illini Union,0.7
-Wednesday,19,Illini Union,0.6621716282347357
-Wednesday,20,Illini Union,0.5605161820417656
-Wednesday,21,Illini Union,0.42457146179884336
-Wednesday,22,Illini Union,0.2877786033550312
+Wednesday,7,Illini Union,0.032952700217555565
+Wednesday,8,Illini Union,0.10150146242745953
+Wednesday,9,Illini Union,0.2434893505187623
+Wednesday,10,Illini Union,0.45489799478447507
+Wednesday,11,Illini Union,0.6618726769384466
+Wednesday,12,Illini Union,0.75
+Wednesday,13,Illini Union,0.6618726769384466
+Wednesday,14,Illini Union,0.45489799478447507
+Wednesday,15,Illini Union,0.3942449288132117
+Wednesday,16,Illini Union,0.5204793118959252
+Wednesday,17,Illini Union,0.6148736547893975
+Wednesday,18,Illini Union,0.65
+Wednesday,19,Illini Union,0.6148736547893975
+Wednesday,20,Illini Union,0.5204793118959252
+Wednesday,21,Illini Union,0.3942449288132117
+Wednesday,22,Illini Union,0.2672229888296718
 Wednesday,23,Illini Union,0.0
 Thursday,0,Illini Union,0.0
 Thursday,1,Illini Union,0.0
@@ -582,22 +582,22 @@ Thursday,3,Illini Union,0.0
 Thursday,4,Illini Union,0.0
 Thursday,5,Illini Union,0.0
 Thursday,6,Illini Union,0.0
-Thursday,7,Illini Union,0.03514954689872594
-Thursday,8,Illini Union,0.10826822658929017
-Thursday,9,Illini Union,0.2597219738866798
-Thursday,10,Illini Union,0.4852245277701068
-Thursday,11,Illini Union,0.7059975220676764
-Thursday,12,Illini Union,0.8
-Thursday,13,Illini Union,0.7059975220676764
-Thursday,14,Illini Union,0.4852245277701068
-Thursday,15,Illini Union,0.42457146179884336
-Thursday,16,Illini Union,0.5605161820417656
-Thursday,17,Illini Union,0.6621716282347357
-Thursday,18,Illini Union,0.7
-Thursday,19,Illini Union,0.6621716282347357
-Thursday,20,Illini Union,0.5605161820417656
-Thursday,21,Illini Union,0.42457146179884336
-Thursday,22,Illini Union,0.2877786033550312
+Thursday,7,Illini Union,0.032952700217555565
+Thursday,8,Illini Union,0.10150146242745953
+Thursday,9,Illini Union,0.2434893505187623
+Thursday,10,Illini Union,0.45489799478447507
+Thursday,11,Illini Union,0.6618726769384466
+Thursday,12,Illini Union,0.75
+Thursday,13,Illini Union,0.6618726769384466
+Thursday,14,Illini Union,0.45489799478447507
+Thursday,15,Illini Union,0.3942449288132117
+Thursday,16,Illini Union,0.5204793118959252
+Thursday,17,Illini Union,0.6148736547893975
+Thursday,18,Illini Union,0.65
+Thursday,19,Illini Union,0.6148736547893975
+Thursday,20,Illini Union,0.5204793118959252
+Thursday,21,Illini Union,0.3942449288132117
+Thursday,22,Illini Union,0.2672229888296718
 Thursday,23,Illini Union,0.0
 Friday,0,Illini Union,0.0
 Friday,1,Illini Union,0.0
@@ -606,22 +606,22 @@ Friday,3,Illini Union,0.0
 Friday,4,Illini Union,0.0
 Friday,5,Illini Union,0.0
 Friday,6,Illini Union,0.0
-Friday,7,Illini Union,0.03514954689872594
-Friday,8,Illini Union,0.10826822658929017
-Friday,9,Illini Union,0.2597219738866798
-Friday,10,Illini Union,0.4852245277701068
-Friday,11,Illini Union,0.7059975220676764
-Friday,12,Illini Union,0.8
-Friday,13,Illini Union,0.7059975220676764
-Friday,14,Illini Union,0.4852245277701068
-Friday,15,Illini Union,0.42457146179884336
-Friday,16,Illini Union,0.5605161820417656
-Friday,17,Illini Union,0.6621716282347357
-Friday,18,Illini Union,0.7
-Friday,19,Illini Union,0.6621716282347357
-Friday,20,Illini Union,0.5605161820417656
-Friday,21,Illini Union,0.42457146179884336
-Friday,22,Illini Union,0.2877786033550312
+Friday,7,Illini Union,0.032952700217555565
+Friday,8,Illini Union,0.10150146242745953
+Friday,9,Illini Union,0.2434893505187623
+Friday,10,Illini Union,0.45489799478447507
+Friday,11,Illini Union,0.6618726769384466
+Friday,12,Illini Union,0.75
+Friday,13,Illini Union,0.6618726769384466
+Friday,14,Illini Union,0.45489799478447507
+Friday,15,Illini Union,0.3942449288132117
+Friday,16,Illini Union,0.5204793118959252
+Friday,17,Illini Union,0.6148736547893975
+Friday,18,Illini Union,0.65
+Friday,19,Illini Union,0.6148736547893975
+Friday,20,Illini Union,0.5204793118959252
+Friday,21,Illini Union,0.3942449288132117
+Friday,22,Illini Union,0.2672229888296718
 Friday,23,Illini Union,0.0
 Saturday,0,Illini Union,0.0
 Saturday,1,Illini Union,0.0
@@ -630,22 +630,22 @@ Saturday,3,Illini Union,0.0
 Saturday,4,Illini Union,0.0
 Saturday,5,Illini Union,0.0
 Saturday,6,Illini Union,0.0
-Saturday,7,Illini Union,0.021089728139235563
-Saturday,8,Illini Union,0.06496093595357409
-Saturday,9,Illini Union,0.15583318433200788
-Saturday,10,Illini Union,0.29113471666206403
-Saturday,11,Illini Union,0.4235985132406058
-Saturday,12,Illini Union,0.48
-Saturday,13,Illini Union,0.4235985132406058
-Saturday,14,Illini Union,0.29113471666206403
-Saturday,15,Illini Union,0.25474287707930604
-Saturday,16,Illini Union,0.3363097092250594
-Saturday,17,Illini Union,0.39730297694084143
-Saturday,18,Illini Union,0.42
-Saturday,19,Illini Union,0.39730297694084143
-Saturday,20,Illini Union,0.3363097092250594
-Saturday,21,Illini Union,0.25474287707930604
-Saturday,22,Illini Union,0.1726671620130187
+Saturday,7,Illini Union,0.019771620130533338
+Saturday,8,Illini Union,0.06090087745647571
+Saturday,9,Illini Union,0.14609361031125737
+Saturday,10,Illini Union,0.272938796870685
+Saturday,11,Illini Union,0.3971236061630679
+Saturday,12,Illini Union,0.44999999999999996
+Saturday,13,Illini Union,0.3971236061630679
+Saturday,14,Illini Union,0.272938796870685
+Saturday,15,Illini Union,0.23654695728792705
+Saturday,16,Illini Union,0.31228758713755517
+Saturday,17,Illini Union,0.36892419287363853
+Saturday,18,Illini Union,0.39
+Saturday,19,Illini Union,0.36892419287363853
+Saturday,20,Illini Union,0.31228758713755517
+Saturday,21,Illini Union,0.23654695728792705
+Saturday,22,Illini Union,0.16033379329780312
 Saturday,23,Illini Union,0.0
 Sunday,0,Illini Union,0.0
 Sunday,1,Illini Union,0.0
@@ -654,22 +654,22 @@ Sunday,3,Illini Union,0.0
 Sunday,4,Illini Union,0.0
 Sunday,5,Illini Union,0.0
 Sunday,6,Illini Union,0.0
-Sunday,7,Illini Union,0.021089728139235563
-Sunday,8,Illini Union,0.06496093595357409
-Sunday,9,Illini Union,0.15583318433200788
-Sunday,10,Illini Union,0.29113471666206403
-Sunday,11,Illini Union,0.4235985132406058
-Sunday,12,Illini Union,0.48
-Sunday,13,Illini Union,0.4235985132406058
-Sunday,14,Illini Union,0.29113471666206403
-Sunday,15,Illini Union,0.25474287707930604
-Sunday,16,Illini Union,0.3363097092250594
-Sunday,17,Illini Union,0.39730297694084143
-Sunday,18,Illini Union,0.42
-Sunday,19,Illini Union,0.39730297694084143
-Sunday,20,Illini Union,0.3363097092250594
-Sunday,21,Illini Union,0.25474287707930604
-Sunday,22,Illini Union,0.1726671620130187
+Sunday,7,Illini Union,0.019771620130533338
+Sunday,8,Illini Union,0.06090087745647571
+Sunday,9,Illini Union,0.14609361031125737
+Sunday,10,Illini Union,0.272938796870685
+Sunday,11,Illini Union,0.3971236061630679
+Sunday,12,Illini Union,0.44999999999999996
+Sunday,13,Illini Union,0.3971236061630679
+Sunday,14,Illini Union,0.272938796870685
+Sunday,15,Illini Union,0.23654695728792705
+Sunday,16,Illini Union,0.31228758713755517
+Sunday,17,Illini Union,0.36892419287363853
+Sunday,18,Illini Union,0.39
+Sunday,19,Illini Union,0.36892419287363853
+Sunday,20,Illini Union,0.31228758713755517
+Sunday,21,Illini Union,0.23654695728792705
+Sunday,22,Illini Union,0.16033379329780312
 Sunday,23,Illini Union,0.0
 Monday,0,CIF,0.0
 Monday,1,CIF,0.0
@@ -678,22 +678,22 @@ Monday,3,CIF,0.0
 Monday,4,CIF,0.0
 Monday,5,CIF,0.0
 Monday,6,CIF,0.0
-Monday,7,CIF,0.0523859310770254
-Monday,8,CIF,0.09662939223094148
-Monday,9,CIF,0.16426733748157973
-Monday,10,CIF,0.2573597210588442
-Monday,11,CIF,0.37160138640878126
-Monday,12,CIF,0.4944944974825113
-Monday,13,CIF,0.6064471930297751
-Monday,14,CIF,0.6854438850778312
-Monday,15,CIF,0.7140000000000001
-Monday,16,CIF,0.6854438850778312
-Monday,17,CIF,0.6064471930297751
-Monday,18,CIF,0.4944944974825113
-Monday,19,CIF,0.37160138640878126
-Monday,20,CIF,0.2573597210588442
-Monday,21,CIF,0.16426733748157973
-Monday,22,CIF,0.09662939223094148
+Monday,7,CIF,0.04656527206846702
+Monday,8,CIF,0.0858927930941702
+Monday,9,CIF,0.14601541109473753
+Monday,10,CIF,0.22876419649675042
+Monday,11,CIF,0.3303123434744723
+Monday,12,CIF,0.4395506644288989
+Monday,13,CIF,0.5390641715820224
+Monday,14,CIF,0.6092834534025166
+Monday,15,CIF,0.6346666666666667
+Monday,16,CIF,0.6092834534025166
+Monday,17,CIF,0.5390641715820224
+Monday,18,CIF,0.4395506644288989
+Monday,19,CIF,0.3303123434744723
+Monday,20,CIF,0.22876419649675042
+Monday,21,CIF,0.14601541109473753
+Monday,22,CIF,0.0858927930941702
 Monday,23,CIF,0.0
 Tuesday,0,CIF,0.0
 Tuesday,1,CIF,0.0
@@ -702,22 +702,22 @@ Tuesday,3,CIF,0.0
 Tuesday,4,CIF,0.0
 Tuesday,5,CIF,0.0
 Tuesday,6,CIF,0.0
-Tuesday,7,CIF,0.0523859310770254
-Tuesday,8,CIF,0.09662939223094148
-Tuesday,9,CIF,0.16426733748157973
-Tuesday,10,CIF,0.2573597210588442
-Tuesday,11,CIF,0.37160138640878126
-Tuesday,12,CIF,0.4944944974825113
-Tuesday,13,CIF,0.6064471930297751
-Tuesday,14,CIF,0.6854438850778312
-Tuesday,15,CIF,0.7140000000000001
-Tuesday,16,CIF,0.6854438850778312
-Tuesday,17,CIF,0.6064471930297751
-Tuesday,18,CIF,0.4944944974825113
-Tuesday,19,CIF,0.37160138640878126
-Tuesday,20,CIF,0.2573597210588442
-Tuesday,21,CIF,0.16426733748157973
-Tuesday,22,CIF,0.09662939223094148
+Tuesday,7,CIF,0.04656527206846702
+Tuesday,8,CIF,0.0858927930941702
+Tuesday,9,CIF,0.14601541109473753
+Tuesday,10,CIF,0.22876419649675042
+Tuesday,11,CIF,0.3303123434744723
+Tuesday,12,CIF,0.4395506644288989
+Tuesday,13,CIF,0.5390641715820224
+Tuesday,14,CIF,0.6092834534025166
+Tuesday,15,CIF,0.6346666666666667
+Tuesday,16,CIF,0.6092834534025166
+Tuesday,17,CIF,0.5390641715820224
+Tuesday,18,CIF,0.4395506644288989
+Tuesday,19,CIF,0.3303123434744723
+Tuesday,20,CIF,0.22876419649675042
+Tuesday,21,CIF,0.14601541109473753
+Tuesday,22,CIF,0.0858927930941702
 Tuesday,23,CIF,0.0
 Wednesday,0,CIF,0.0
 Wednesday,1,CIF,0.0
@@ -726,22 +726,22 @@ Wednesday,3,CIF,0.0
 Wednesday,4,CIF,0.0
 Wednesday,5,CIF,0.0
 Wednesday,6,CIF,0.0
-Wednesday,7,CIF,0.061630507149441634
-Wednesday,8,CIF,0.11368163791875467
-Wednesday,9,CIF,0.19325569115479968
-Wednesday,10,CIF,0.30277614242216966
-Wednesday,11,CIF,0.4371781016573898
-Wednesday,12,CIF,0.5817582323323661
-Wednesday,13,CIF,0.7134672859173824
-Wednesday,14,CIF,0.8064045706798013
-Wednesday,15,CIF,0.8400000000000001
-Wednesday,16,CIF,0.8064045706798013
-Wednesday,17,CIF,0.7134672859173824
-Wednesday,18,CIF,0.5817582323323661
-Wednesday,19,CIF,0.4371781016573898
-Wednesday,20,CIF,0.30277614242216966
-Wednesday,21,CIF,0.19325569115479968
-Wednesday,22,CIF,0.11368163791875467
+Wednesday,7,CIF,0.0547826730217259
+Wednesday,8,CIF,0.10105034481667083
+Wednesday,9,CIF,0.17178283658204416
+Wednesday,10,CIF,0.2691343488197063
+Wednesday,11,CIF,0.38860275702879093
+Wednesday,12,CIF,0.517118428739881
+Wednesday,13,CIF,0.6341931430376734
+Wednesday,14,CIF,0.7168040628264901
+Wednesday,15,CIF,0.7466666666666667
+Wednesday,16,CIF,0.7168040628264901
+Wednesday,17,CIF,0.6341931430376734
+Wednesday,18,CIF,0.517118428739881
+Wednesday,19,CIF,0.38860275702879093
+Wednesday,20,CIF,0.2691343488197063
+Wednesday,21,CIF,0.17178283658204416
+Wednesday,22,CIF,0.10105034481667083
 Wednesday,23,CIF,0.0
 Thursday,0,CIF,0.0
 Thursday,1,CIF,0.0
@@ -750,22 +750,22 @@ Thursday,3,CIF,0.0
 Thursday,4,CIF,0.0
 Thursday,5,CIF,0.0
 Thursday,6,CIF,0.0
-Thursday,7,CIF,0.061630507149441634
-Thursday,8,CIF,0.11368163791875467
-Thursday,9,CIF,0.19325569115479968
-Thursday,10,CIF,0.30277614242216966
-Thursday,11,CIF,0.4371781016573898
-Thursday,12,CIF,0.5817582323323661
-Thursday,13,CIF,0.7134672859173824
-Thursday,14,CIF,0.8064045706798013
-Thursday,15,CIF,0.8400000000000001
-Thursday,16,CIF,0.8064045706798013
-Thursday,17,CIF,0.7134672859173824
-Thursday,18,CIF,0.5817582323323661
-Thursday,19,CIF,0.4371781016573898
-Thursday,20,CIF,0.30277614242216966
-Thursday,21,CIF,0.19325569115479968
-Thursday,22,CIF,0.11368163791875467
+Thursday,7,CIF,0.0547826730217259
+Thursday,8,CIF,0.10105034481667083
+Thursday,9,CIF,0.17178283658204416
+Thursday,10,CIF,0.2691343488197063
+Thursday,11,CIF,0.38860275702879093
+Thursday,12,CIF,0.517118428739881
+Thursday,13,CIF,0.6341931430376734
+Thursday,14,CIF,0.7168040628264901
+Thursday,15,CIF,0.7466666666666667
+Thursday,16,CIF,0.7168040628264901
+Thursday,17,CIF,0.6341931430376734
+Thursday,18,CIF,0.517118428739881
+Thursday,19,CIF,0.38860275702879093
+Thursday,20,CIF,0.2691343488197063
+Thursday,21,CIF,0.17178283658204416
+Thursday,22,CIF,0.10105034481667083
 Thursday,23,CIF,0.0
 Friday,0,CIF,0.0
 Friday,1,CIF,0.0
@@ -774,20 +774,20 @@ Friday,3,CIF,0.0
 Friday,4,CIF,0.0
 Friday,5,CIF,0.0
 Friday,6,CIF,0.0
-Friday,7,CIF,0.061630507149441634
-Friday,8,CIF,0.11368163791875467
-Friday,9,CIF,0.19325569115479968
-Friday,10,CIF,0.30277614242216966
-Friday,11,CIF,0.4371781016573898
-Friday,12,CIF,0.5817582323323661
-Friday,13,CIF,0.7134672859173824
-Friday,14,CIF,0.8064045706798013
-Friday,15,CIF,0.8400000000000001
-Friday,16,CIF,0.8064045706798013
-Friday,17,CIF,0.7134672859173824
-Friday,18,CIF,0.5817582323323661
-Friday,19,CIF,0.4371781016573898
-Friday,20,CIF,0.30277614242216966
+Friday,7,CIF,0.0547826730217259
+Friday,8,CIF,0.10105034481667083
+Friday,9,CIF,0.17178283658204416
+Friday,10,CIF,0.2691343488197063
+Friday,11,CIF,0.38860275702879093
+Friday,12,CIF,0.517118428739881
+Friday,13,CIF,0.6341931430376734
+Friday,14,CIF,0.7168040628264901
+Friday,15,CIF,0.7466666666666667
+Friday,16,CIF,0.7168040628264901
+Friday,17,CIF,0.6341931430376734
+Friday,18,CIF,0.517118428739881
+Friday,19,CIF,0.38860275702879093
+Friday,20,CIF,0.2691343488197063
 Friday,21,CIF,0.0
 Friday,22,CIF,0.0
 Friday,23,CIF,0.0
@@ -800,18 +800,18 @@ Saturday,5,CIF,0.0
 Saturday,6,CIF,0.0
 Saturday,7,CIF,0.0
 Saturday,8,CIF,0.0
-Saturday,9,CIF,0.09856040248894782
-Saturday,10,CIF,0.1544158326353065
-Saturday,11,CIF,0.22296083184526877
-Saturday,12,CIF,0.2966966984895067
-Saturday,13,CIF,0.36386831581786505
-Saturday,14,CIF,0.41126633104669863
-Saturday,15,CIF,0.42839999999999995
-Saturday,16,CIF,0.41126633104669863
-Saturday,17,CIF,0.36386831581786505
-Saturday,18,CIF,0.2966966984895067
-Saturday,19,CIF,0.22296083184526877
-Saturday,20,CIF,0.1544158326353065
+Saturday,9,CIF,0.08760924665684251
+Saturday,10,CIF,0.13725851789805024
+Saturday,11,CIF,0.19818740608468338
+Saturday,12,CIF,0.2637303986573393
+Saturday,13,CIF,0.3234385029492134
+Saturday,14,CIF,0.36557007204151
+Saturday,15,CIF,0.3808
+Saturday,16,CIF,0.36557007204151
+Saturday,17,CIF,0.3234385029492134
+Saturday,18,CIF,0.2637303986573393
+Saturday,19,CIF,0.19818740608468338
+Saturday,20,CIF,0.13725851789805024
 Saturday,21,CIF,0.0
 Saturday,22,CIF,0.0
 Saturday,23,CIF,0.0
@@ -827,17 +827,17 @@ Sunday,8,CIF,0.0
 Sunday,9,CIF,0.0
 Sunday,10,CIF,0.0
 Sunday,11,CIF,0.0
-Sunday,12,CIF,0.2966966984895067
-Sunday,13,CIF,0.36386831581786505
-Sunday,14,CIF,0.41126633104669863
-Sunday,15,CIF,0.42839999999999995
-Sunday,16,CIF,0.41126633104669863
-Sunday,17,CIF,0.36386831581786505
-Sunday,18,CIF,0.2966966984895067
-Sunday,19,CIF,0.22296083184526877
-Sunday,20,CIF,0.1544158326353065
-Sunday,21,CIF,0.09856040248894782
-Sunday,22,CIF,0.05797763533856488
+Sunday,12,CIF,0.2637303986573393
+Sunday,13,CIF,0.3234385029492134
+Sunday,14,CIF,0.36557007204151
+Sunday,15,CIF,0.3808
+Sunday,16,CIF,0.36557007204151
+Sunday,17,CIF,0.3234385029492134
+Sunday,18,CIF,0.2637303986573393
+Sunday,19,CIF,0.19818740608468338
+Sunday,20,CIF,0.13725851789805024
+Sunday,21,CIF,0.08760924665684251
+Sunday,22,CIF,0.051535675856502115
 Sunday,23,CIF,0.0
 Monday,0,BIF,0.0
 Monday,1,BIF,0.0
@@ -845,116 +845,116 @@ Monday,2,BIF,0.0
 Monday,3,BIF,0.0
 Monday,4,BIF,0.0
 Monday,5,BIF,0.0
-Monday,6,BIF,0.04622288036208123
-Monday,7,BIF,0.085261228439066
-Monday,8,BIF,0.14494176836609973
-Monday,9,BIF,0.22708210681662724
-Monday,10,BIF,0.3278835762430423
-Monday,11,BIF,0.43631867424927456
-Monday,12,BIF,0.5351004644380368
-Monday,13,BIF,0.604803428009851
-Monday,14,BIF,0.63
-Monday,15,BIF,0.604803428009851
-Monday,16,BIF,0.5351004644380368
-Monday,17,BIF,0.43631867424927456
-Monday,18,BIF,0.3278835762430423
-Monday,19,BIF,0.22708210681662724
-Monday,20,BIF,0.14494176836609973
-Monday,21,BIF,0.085261228439066
-Monday,22,BIF,0.04622288036208123
-Monday,23,BIF,0.023094566430628138
+Monday,6,BIF,0.03851906696840102
+Monday,7,BIF,0.07105102369922166
+Monday,8,BIF,0.12078480697174977
+Monday,9,BIF,0.18923508901385602
+Monday,10,BIF,0.2732363135358686
+Monday,11,BIF,0.36359889520772887
+Monday,12,BIF,0.44591705369836404
+Monday,13,BIF,0.5040028566748758
+Monday,14,BIF,0.5249999999999999
+Monday,15,BIF,0.5040028566748758
+Monday,16,BIF,0.44591705369836404
+Monday,17,BIF,0.36359889520772887
+Monday,18,BIF,0.2732363135358686
+Monday,19,BIF,0.18923508901385602
+Monday,20,BIF,0.12078480697174977
+Monday,21,BIF,0.07105102369922166
+Monday,22,BIF,0.03851906696840102
+Monday,23,BIF,0.019245472025523448
 Tuesday,0,BIF,0.0
 Tuesday,1,BIF,0.0
 Tuesday,2,BIF,0.0
 Tuesday,3,BIF,0.0
 Tuesday,4,BIF,0.0
 Tuesday,5,BIF,0.0
-Tuesday,6,BIF,0.04622288036208123
-Tuesday,7,BIF,0.085261228439066
-Tuesday,8,BIF,0.14494176836609973
-Tuesday,9,BIF,0.22708210681662724
-Tuesday,10,BIF,0.3278835762430423
-Tuesday,11,BIF,0.43631867424927456
-Tuesday,12,BIF,0.5351004644380368
-Tuesday,13,BIF,0.604803428009851
-Tuesday,14,BIF,0.63
-Tuesday,15,BIF,0.604803428009851
-Tuesday,16,BIF,0.5351004644380368
-Tuesday,17,BIF,0.43631867424927456
-Tuesday,18,BIF,0.3278835762430423
-Tuesday,19,BIF,0.22708210681662724
-Tuesday,20,BIF,0.14494176836609973
-Tuesday,21,BIF,0.085261228439066
-Tuesday,22,BIF,0.04622288036208123
-Tuesday,23,BIF,0.023094566430628138
+Tuesday,6,BIF,0.03851906696840102
+Tuesday,7,BIF,0.07105102369922166
+Tuesday,8,BIF,0.12078480697174977
+Tuesday,9,BIF,0.18923508901385602
+Tuesday,10,BIF,0.2732363135358686
+Tuesday,11,BIF,0.36359889520772887
+Tuesday,12,BIF,0.44591705369836404
+Tuesday,13,BIF,0.5040028566748758
+Tuesday,14,BIF,0.5249999999999999
+Tuesday,15,BIF,0.5040028566748758
+Tuesday,16,BIF,0.44591705369836404
+Tuesday,17,BIF,0.36359889520772887
+Tuesday,18,BIF,0.2732363135358686
+Tuesday,19,BIF,0.18923508901385602
+Tuesday,20,BIF,0.12078480697174977
+Tuesday,21,BIF,0.07105102369922166
+Tuesday,22,BIF,0.03851906696840102
+Tuesday,23,BIF,0.019245472025523448
 Wednesday,0,BIF,0.0
 Wednesday,1,BIF,0.0
 Wednesday,2,BIF,0.0
 Wednesday,3,BIF,0.0
 Wednesday,4,BIF,0.0
 Wednesday,5,BIF,0.0
-Wednesday,6,BIF,0.04622288036208123
-Wednesday,7,BIF,0.085261228439066
-Wednesday,8,BIF,0.14494176836609973
-Wednesday,9,BIF,0.22708210681662724
-Wednesday,10,BIF,0.3278835762430423
-Wednesday,11,BIF,0.43631867424927456
-Wednesday,12,BIF,0.5351004644380368
-Wednesday,13,BIF,0.604803428009851
-Wednesday,14,BIF,0.63
-Wednesday,15,BIF,0.604803428009851
-Wednesday,16,BIF,0.5351004644380368
-Wednesday,17,BIF,0.43631867424927456
-Wednesday,18,BIF,0.3278835762430423
-Wednesday,19,BIF,0.22708210681662724
-Wednesday,20,BIF,0.14494176836609973
-Wednesday,21,BIF,0.085261228439066
-Wednesday,22,BIF,0.04622288036208123
-Wednesday,23,BIF,0.023094566430628138
+Wednesday,6,BIF,0.03851906696840102
+Wednesday,7,BIF,0.07105102369922166
+Wednesday,8,BIF,0.12078480697174977
+Wednesday,9,BIF,0.18923508901385602
+Wednesday,10,BIF,0.2732363135358686
+Wednesday,11,BIF,0.36359889520772887
+Wednesday,12,BIF,0.44591705369836404
+Wednesday,13,BIF,0.5040028566748758
+Wednesday,14,BIF,0.5249999999999999
+Wednesday,15,BIF,0.5040028566748758
+Wednesday,16,BIF,0.44591705369836404
+Wednesday,17,BIF,0.36359889520772887
+Wednesday,18,BIF,0.2732363135358686
+Wednesday,19,BIF,0.18923508901385602
+Wednesday,20,BIF,0.12078480697174977
+Wednesday,21,BIF,0.07105102369922166
+Wednesday,22,BIF,0.03851906696840102
+Wednesday,23,BIF,0.019245472025523448
 Thursday,0,BIF,0.0
 Thursday,1,BIF,0.0
 Thursday,2,BIF,0.0
 Thursday,3,BIF,0.0
 Thursday,4,BIF,0.0
 Thursday,5,BIF,0.0
-Thursday,6,BIF,0.04622288036208123
-Thursday,7,BIF,0.085261228439066
-Thursday,8,BIF,0.14494176836609973
-Thursday,9,BIF,0.22708210681662724
-Thursday,10,BIF,0.3278835762430423
-Thursday,11,BIF,0.43631867424927456
-Thursday,12,BIF,0.5351004644380368
-Thursday,13,BIF,0.604803428009851
-Thursday,14,BIF,0.63
-Thursday,15,BIF,0.604803428009851
-Thursday,16,BIF,0.5351004644380368
-Thursday,17,BIF,0.43631867424927456
-Thursday,18,BIF,0.3278835762430423
-Thursday,19,BIF,0.22708210681662724
-Thursday,20,BIF,0.14494176836609973
-Thursday,21,BIF,0.085261228439066
-Thursday,22,BIF,0.04622288036208123
-Thursday,23,BIF,0.023094566430628138
+Thursday,6,BIF,0.03851906696840102
+Thursday,7,BIF,0.07105102369922166
+Thursday,8,BIF,0.12078480697174977
+Thursday,9,BIF,0.18923508901385602
+Thursday,10,BIF,0.2732363135358686
+Thursday,11,BIF,0.36359889520772887
+Thursday,12,BIF,0.44591705369836404
+Thursday,13,BIF,0.5040028566748758
+Thursday,14,BIF,0.5249999999999999
+Thursday,15,BIF,0.5040028566748758
+Thursday,16,BIF,0.44591705369836404
+Thursday,17,BIF,0.36359889520772887
+Thursday,18,BIF,0.2732363135358686
+Thursday,19,BIF,0.18923508901385602
+Thursday,20,BIF,0.12078480697174977
+Thursday,21,BIF,0.07105102369922166
+Thursday,22,BIF,0.03851906696840102
+Thursday,23,BIF,0.019245472025523448
 Friday,0,BIF,0.0
 Friday,1,BIF,0.0
 Friday,2,BIF,0.0
 Friday,3,BIF,0.0
 Friday,4,BIF,0.0
 Friday,5,BIF,0.0
-Friday,6,BIF,0.04622288036208123
-Friday,7,BIF,0.085261228439066
-Friday,8,BIF,0.14494176836609973
-Friday,9,BIF,0.22708210681662724
-Friday,10,BIF,0.3278835762430423
-Friday,11,BIF,0.43631867424927456
-Friday,12,BIF,0.5351004644380368
-Friday,13,BIF,0.604803428009851
-Friday,14,BIF,0.63
-Friday,15,BIF,0.604803428009851
-Friday,16,BIF,0.5351004644380368
-Friday,17,BIF,0.43631867424927456
-Friday,18,BIF,0.3278835762430423
-Friday,19,BIF,0.22708210681662724
+Friday,6,BIF,0.03851906696840102
+Friday,7,BIF,0.07105102369922166
+Friday,8,BIF,0.12078480697174977
+Friday,9,BIF,0.18923508901385602
+Friday,10,BIF,0.2732363135358686
+Friday,11,BIF,0.36359889520772887
+Friday,12,BIF,0.44591705369836404
+Friday,13,BIF,0.5040028566748758
+Friday,14,BIF,0.5249999999999999
+Friday,15,BIF,0.5040028566748758
+Friday,16,BIF,0.44591705369836404
+Friday,17,BIF,0.36359889520772887
+Friday,18,BIF,0.2732363135358686
+Friday,19,BIF,0.18923508901385602
 Friday,20,BIF,0.0
 Friday,21,BIF,0.0
 Friday,22,BIF,0.0
@@ -965,20 +965,20 @@ Saturday,2,BIF,0.0
 Saturday,3,BIF,0.0
 Saturday,4,BIF,0.0
 Saturday,5,BIF,0.0
-Saturday,6,BIF,0.012326101429888325
-Saturday,7,BIF,0.02273632758375093
-Saturday,8,BIF,0.038651138230959926
-Saturday,9,BIF,0.06055522848443392
-Saturday,10,BIF,0.08743562033147795
-Saturday,11,BIF,0.11635164646647322
-Saturday,12,BIF,0.14269345718347648
-Saturday,13,BIF,0.16128091413596024
-Saturday,14,BIF,0.16799999999999998
-Saturday,15,BIF,0.16128091413596024
-Saturday,16,BIF,0.14269345718347648
-Saturday,17,BIF,0.11635164646647322
-Saturday,18,BIF,0.08743562033147795
-Saturday,19,BIF,0.06055522848443392
+Saturday,6,BIF,0.011555720090520307
+Saturday,7,BIF,0.021315307109766497
+Saturday,8,BIF,0.03623544209152493
+Saturday,9,BIF,0.0567705267041568
+Saturday,10,BIF,0.08197089406076057
+Saturday,11,BIF,0.10907966856231863
+Saturday,12,BIF,0.1337751161095092
+Saturday,13,BIF,0.15120085700246272
+Saturday,14,BIF,0.15749999999999997
+Saturday,15,BIF,0.15120085700246272
+Saturday,16,BIF,0.1337751161095092
+Saturday,17,BIF,0.10907966856231863
+Saturday,18,BIF,0.08197089406076057
+Saturday,19,BIF,0.0567705267041568
 Saturday,20,BIF,0.0
 Saturday,21,BIF,0.0
 Saturday,22,BIF,0.0
@@ -993,188 +993,188 @@ Sunday,6,BIF,0.0
 Sunday,7,BIF,0.0
 Sunday,8,BIF,0.0
 Sunday,9,BIF,0.0
-Sunday,10,BIF,0.08743562033147795
-Sunday,11,BIF,0.11635164646647322
-Sunday,12,BIF,0.14269345718347648
-Sunday,13,BIF,0.16128091413596024
-Sunday,14,BIF,0.16799999999999998
-Sunday,15,BIF,0.16128091413596024
-Sunday,16,BIF,0.14269345718347648
-Sunday,17,BIF,0.11635164646647322
-Sunday,18,BIF,0.08743562033147795
-Sunday,19,BIF,0.06055522848443392
-Sunday,20,BIF,0.038651138230959926
-Sunday,21,BIF,0.02273632758375093
-Sunday,22,BIF,0.012326101429888325
-Sunday,23,BIF,0.006158551048167502
-Monday,0,Siebel Center for CS,7.029221420636599e-10
-Monday,1,Siebel Center for CS,1.2459593092444681e-08
-Monday,2,Siebel Center for CS,1.7199937717286174e-07
-Monday,3,Siebel Center for CS,1.8491675719823573e-06
-Monday,4,Siebel Center for CS,1.5482890518577473e-05
-Monday,5,Siebel Center for CS,0.00010096112853151778
-Monday,6,Siebel Center for CS,0.0005127229171496449
-Monday,7,Siebel Center for CS,0.013519056499509977
-Monday,8,Siebel Center for CS,0.04164162561126545
-Monday,9,Siebel Center for CS,0.09989306687949223
-Monday,10,Siebel Center for CS,0.186624818373118
-Monday,11,Siebel Center for CS,0.27153750848756786
-Monday,12,Siebel Center for CS,0.3076923076923077
-Monday,13,Siebel Center for CS,0.27153750848756786
-Monday,14,Siebel Center for CS,0.186624818373118
-Monday,15,Siebel Center for CS,0.16329671607647822
-Monday,16,Siebel Center for CS,0.2155831469391406
-Monday,17,Siebel Center for CS,0.2546813954748984
-Monday,18,Siebel Center for CS,0.2692307692307692
-Monday,19,Siebel Center for CS,0.2546813954748984
-Monday,20,Siebel Center for CS,0.2155831469391406
-Monday,21,Siebel Center for CS,0.16329671607647822
-Monday,22,Siebel Center for CS,0.01660261173202103
-Monday,23,Siebel Center for CS,0.010069993046775421
-Tuesday,0,Siebel Center for CS,7.029221420636599e-10
-Tuesday,1,Siebel Center for CS,1.2459593092444681e-08
-Tuesday,2,Siebel Center for CS,1.7199937717286174e-07
-Tuesday,3,Siebel Center for CS,1.8491675719823573e-06
-Tuesday,4,Siebel Center for CS,1.5482890518577473e-05
-Tuesday,5,Siebel Center for CS,0.00010096112853151778
-Tuesday,6,Siebel Center for CS,0.0005127229171496449
-Tuesday,7,Siebel Center for CS,0.013519056499509977
-Tuesday,8,Siebel Center for CS,0.04164162561126545
-Tuesday,9,Siebel Center for CS,0.09989306687949223
-Tuesday,10,Siebel Center for CS,0.186624818373118
-Tuesday,11,Siebel Center for CS,0.27153750848756786
-Tuesday,12,Siebel Center for CS,0.3076923076923077
-Tuesday,13,Siebel Center for CS,0.27153750848756786
-Tuesday,14,Siebel Center for CS,0.186624818373118
-Tuesday,15,Siebel Center for CS,0.16329671607647822
-Tuesday,16,Siebel Center for CS,0.2155831469391406
-Tuesday,17,Siebel Center for CS,0.2546813954748984
-Tuesday,18,Siebel Center for CS,0.2692307692307692
-Tuesday,19,Siebel Center for CS,0.2546813954748984
-Tuesday,20,Siebel Center for CS,0.2155831469391406
-Tuesday,21,Siebel Center for CS,0.16329671607647822
-Tuesday,22,Siebel Center for CS,0.01660261173202103
-Tuesday,23,Siebel Center for CS,0.010069993046775421
-Wednesday,0,Siebel Center for CS,7.029221420636599e-10
-Wednesday,1,Siebel Center for CS,1.2459593092444681e-08
-Wednesday,2,Siebel Center for CS,1.7199937717286174e-07
-Wednesday,3,Siebel Center for CS,1.8491675719823573e-06
-Wednesday,4,Siebel Center for CS,1.5482890518577473e-05
-Wednesday,5,Siebel Center for CS,0.00010096112853151778
-Wednesday,6,Siebel Center for CS,0.0005127229171496449
-Wednesday,7,Siebel Center for CS,0.013519056499509977
-Wednesday,8,Siebel Center for CS,0.04164162561126545
-Wednesday,9,Siebel Center for CS,0.09989306687949223
-Wednesday,10,Siebel Center for CS,0.186624818373118
-Wednesday,11,Siebel Center for CS,0.27153750848756786
-Wednesday,12,Siebel Center for CS,0.3076923076923077
-Wednesday,13,Siebel Center for CS,0.27153750848756786
-Wednesday,14,Siebel Center for CS,0.186624818373118
-Wednesday,15,Siebel Center for CS,0.16329671607647822
-Wednesday,16,Siebel Center for CS,0.2155831469391406
-Wednesday,17,Siebel Center for CS,0.2546813954748984
-Wednesday,18,Siebel Center for CS,0.2692307692307692
-Wednesday,19,Siebel Center for CS,0.2546813954748984
-Wednesday,20,Siebel Center for CS,0.2155831469391406
-Wednesday,21,Siebel Center for CS,0.16329671607647822
-Wednesday,22,Siebel Center for CS,0.01660261173202103
-Wednesday,23,Siebel Center for CS,0.010069993046775421
-Thursday,0,Siebel Center for CS,7.029221420636599e-10
-Thursday,1,Siebel Center for CS,1.2459593092444681e-08
-Thursday,2,Siebel Center for CS,1.7199937717286174e-07
-Thursday,3,Siebel Center for CS,1.8491675719823573e-06
-Thursday,4,Siebel Center for CS,1.5482890518577473e-05
-Thursday,5,Siebel Center for CS,0.00010096112853151778
-Thursday,6,Siebel Center for CS,0.0005127229171496449
-Thursday,7,Siebel Center for CS,0.013519056499509977
-Thursday,8,Siebel Center for CS,0.04164162561126545
-Thursday,9,Siebel Center for CS,0.09989306687949223
-Thursday,10,Siebel Center for CS,0.186624818373118
-Thursday,11,Siebel Center for CS,0.27153750848756786
-Thursday,12,Siebel Center for CS,0.3076923076923077
-Thursday,13,Siebel Center for CS,0.27153750848756786
-Thursday,14,Siebel Center for CS,0.186624818373118
-Thursday,15,Siebel Center for CS,0.16329671607647822
-Thursday,16,Siebel Center for CS,0.2155831469391406
-Thursday,17,Siebel Center for CS,0.2546813954748984
-Thursday,18,Siebel Center for CS,0.2692307692307692
-Thursday,19,Siebel Center for CS,0.2546813954748984
-Thursday,20,Siebel Center for CS,0.2155831469391406
-Thursday,21,Siebel Center for CS,0.16329671607647822
-Thursday,22,Siebel Center for CS,0.01660261173202103
-Thursday,23,Siebel Center for CS,0.010069993046775421
-Friday,0,Siebel Center for CS,7.029221420636599e-10
-Friday,1,Siebel Center for CS,1.2459593092444681e-08
-Friday,2,Siebel Center for CS,1.7199937717286174e-07
-Friday,3,Siebel Center for CS,1.8491675719823573e-06
-Friday,4,Siebel Center for CS,1.5482890518577473e-05
-Friday,5,Siebel Center for CS,0.00010096112853151778
-Friday,6,Siebel Center for CS,0.0005127229171496449
-Friday,7,Siebel Center for CS,0.013519056499509977
-Friday,8,Siebel Center for CS,0.04164162561126545
-Friday,9,Siebel Center for CS,0.09989306687949223
-Friday,10,Siebel Center for CS,0.186624818373118
-Friday,11,Siebel Center for CS,0.27153750848756786
-Friday,12,Siebel Center for CS,0.3076923076923077
-Friday,13,Siebel Center for CS,0.27153750848756786
-Friday,14,Siebel Center for CS,0.186624818373118
-Friday,15,Siebel Center for CS,0.16329671607647822
-Friday,16,Siebel Center for CS,0.2155831469391406
-Friday,17,Siebel Center for CS,0.2546813954748984
-Friday,18,Siebel Center for CS,0.2692307692307692
-Friday,19,Siebel Center for CS,0.2546813954748984
-Friday,20,Siebel Center for CS,0.2155831469391406
-Friday,21,Siebel Center for CS,0.16329671607647822
-Friday,22,Siebel Center for CS,0.01660261173202103
-Friday,23,Siebel Center for CS,0.010069993046775421
-Saturday,0,Siebel Center for CS,4.217532852381959e-10
-Saturday,1,Siebel Center for CS,7.475755855466808e-09
-Saturday,2,Siebel Center for CS,1.0319962630371703e-07
-Saturday,3,Siebel Center for CS,1.1095005431894142e-06
-Saturday,4,Siebel Center for CS,9.289734311146482e-06
-Saturday,5,Siebel Center for CS,6.057667711891067e-05
-Saturday,6,Siebel Center for CS,0.0003076337502897869
-Saturday,7,Siebel Center for CS,0.008111433899705986
-Saturday,8,Siebel Center for CS,0.02498497536675927
-Saturday,9,Siebel Center for CS,0.059935840127695345
-Saturday,10,Siebel Center for CS,0.11197489102387079
-Saturday,11,Siebel Center for CS,0.16292250509254072
-Saturday,12,Siebel Center for CS,0.18461538461538463
-Saturday,13,Siebel Center for CS,0.16292250509254072
-Saturday,14,Siebel Center for CS,0.11197489102387079
-Saturday,15,Siebel Center for CS,0.09797802964588695
-Saturday,16,Siebel Center for CS,0.1293498881634844
-Saturday,17,Siebel Center for CS,0.15280883728493902
-Saturday,18,Siebel Center for CS,0.16153846153846155
-Saturday,19,Siebel Center for CS,0.15280883728493902
-Saturday,20,Siebel Center for CS,0.1293498881634844
-Saturday,21,Siebel Center for CS,0.09797802964588695
-Saturday,22,Siebel Center for CS,0.009961567039212619
-Saturday,23,Siebel Center for CS,0.006041995828065252
-Sunday,0,Siebel Center for CS,4.217532852381959e-10
-Sunday,1,Siebel Center for CS,7.475755855466808e-09
-Sunday,2,Siebel Center for CS,1.0319962630371703e-07
-Sunday,3,Siebel Center for CS,1.1095005431894142e-06
-Sunday,4,Siebel Center for CS,9.289734311146482e-06
-Sunday,5,Siebel Center for CS,6.057667711891067e-05
-Sunday,6,Siebel Center for CS,0.0003076337502897869
-Sunday,7,Siebel Center for CS,0.008111433899705986
-Sunday,8,Siebel Center for CS,0.02498497536675927
-Sunday,9,Siebel Center for CS,0.059935840127695345
-Sunday,10,Siebel Center for CS,0.11197489102387079
-Sunday,11,Siebel Center for CS,0.16292250509254072
-Sunday,12,Siebel Center for CS,0.18461538461538463
-Sunday,13,Siebel Center for CS,0.16292250509254072
-Sunday,14,Siebel Center for CS,0.11197489102387079
-Sunday,15,Siebel Center for CS,0.09797802964588695
-Sunday,16,Siebel Center for CS,0.1293498881634844
-Sunday,17,Siebel Center for CS,0.15280883728493902
-Sunday,18,Siebel Center for CS,0.16153846153846155
-Sunday,19,Siebel Center for CS,0.15280883728493902
-Sunday,20,Siebel Center for CS,0.1293498881634844
-Sunday,21,Siebel Center for CS,0.09797802964588695
-Sunday,22,Siebel Center for CS,0.009961567039212619
-Sunday,23,Siebel Center for CS,0.006041995828065252
+Sunday,10,BIF,0.08197089406076057
+Sunday,11,BIF,0.10907966856231863
+Sunday,12,BIF,0.1337751161095092
+Sunday,13,BIF,0.15120085700246272
+Sunday,14,BIF,0.15749999999999997
+Sunday,15,BIF,0.15120085700246272
+Sunday,16,BIF,0.1337751161095092
+Sunday,17,BIF,0.10907966856231863
+Sunday,18,BIF,0.08197089406076057
+Sunday,19,BIF,0.0567705267041568
+Sunday,20,BIF,0.03623544209152493
+Sunday,21,BIF,0.021315307109766497
+Sunday,22,BIF,0.011555720090520307
+Sunday,23,BIF,0.0057736416076570336
+Monday,0,Siebel Center for CS,4.888642075895597e-06
+Monday,1,Siebel Center for CS,1.5968021088159566e-05
+Monday,2,Siebel Center for CS,4.8068585543763644e-05
+Monday,3,Siebel Center for CS,0.000133357970458788
+Monday,4,Siebel Center for CS,0.0003409761488157548
+Monday,5,Siebel Center for CS,0.0008034824854823997
+Monday,6,Siebel Center for CS,0.0017449227969807929
+Monday,7,Siebel Center for CS,0.02328263603423351
+Monday,8,Siebel Center for CS,0.0429463965470851
+Monday,9,Siebel Center for CS,0.07300770554736877
+Monday,10,Siebel Center for CS,0.11438209824837521
+Monday,11,Siebel Center for CS,0.16515617173723615
+Monday,12,Siebel Center for CS,0.21977533221444945
+Monday,13,Siebel Center for CS,0.2695320857910112
+Monday,14,Siebel Center for CS,0.3046417267012583
+Monday,15,Siebel Center for CS,0.31733333333333336
+Monday,16,Siebel Center for CS,0.3046417267012583
+Monday,17,Siebel Center for CS,0.2695320857910112
+Monday,18,Siebel Center for CS,0.21977533221444945
+Monday,19,Siebel Center for CS,0.16515617173723615
+Monday,20,Siebel Center for CS,0.11438209824837521
+Monday,21,Siebel Center for CS,0.07300770554736877
+Monday,22,Siebel Center for CS,0.006441959482062764
+Monday,23,Siebel Center for CS,0.0034923954051350264
+Tuesday,0,Siebel Center for CS,4.888642075895597e-06
+Tuesday,1,Siebel Center for CS,1.5968021088159566e-05
+Tuesday,2,Siebel Center for CS,4.8068585543763644e-05
+Tuesday,3,Siebel Center for CS,0.000133357970458788
+Tuesday,4,Siebel Center for CS,0.0003409761488157548
+Tuesday,5,Siebel Center for CS,0.0008034824854823997
+Tuesday,6,Siebel Center for CS,0.0017449227969807929
+Tuesday,7,Siebel Center for CS,0.02328263603423351
+Tuesday,8,Siebel Center for CS,0.0429463965470851
+Tuesday,9,Siebel Center for CS,0.07300770554736877
+Tuesday,10,Siebel Center for CS,0.11438209824837521
+Tuesday,11,Siebel Center for CS,0.16515617173723615
+Tuesday,12,Siebel Center for CS,0.21977533221444945
+Tuesday,13,Siebel Center for CS,0.2695320857910112
+Tuesday,14,Siebel Center for CS,0.3046417267012583
+Tuesday,15,Siebel Center for CS,0.31733333333333336
+Tuesday,16,Siebel Center for CS,0.3046417267012583
+Tuesday,17,Siebel Center for CS,0.2695320857910112
+Tuesday,18,Siebel Center for CS,0.21977533221444945
+Tuesday,19,Siebel Center for CS,0.16515617173723615
+Tuesday,20,Siebel Center for CS,0.11438209824837521
+Tuesday,21,Siebel Center for CS,0.07300770554736877
+Tuesday,22,Siebel Center for CS,0.006441959482062764
+Tuesday,23,Siebel Center for CS,0.0034923954051350264
+Wednesday,0,Siebel Center for CS,5.751343618700702e-06
+Wednesday,1,Siebel Center for CS,1.8785907162540667e-05
+Wednesday,2,Siebel Center for CS,5.655127711031017e-05
+Wednesday,3,Siebel Center for CS,0.00015689172995151526
+Wednesday,4,Siebel Center for CS,0.00040114841037147616
+Wednesday,5,Siebel Center for CS,0.000945273512332235
+Wednesday,6,Siebel Center for CS,0.002052850349389168
+Wednesday,7,Siebel Center for CS,0.02739133651086295
+Wednesday,8,Siebel Center for CS,0.050525172408335414
+Wednesday,9,Siebel Center for CS,0.08589141829102208
+Wednesday,10,Siebel Center for CS,0.13456717440985316
+Wednesday,11,Siebel Center for CS,0.19430137851439547
+Wednesday,12,Siebel Center for CS,0.2585592143699405
+Wednesday,13,Siebel Center for CS,0.3170965715188367
+Wednesday,14,Siebel Center for CS,0.35840203141324506
+Wednesday,15,Siebel Center for CS,0.37333333333333335
+Wednesday,16,Siebel Center for CS,0.35840203141324506
+Wednesday,17,Siebel Center for CS,0.3170965715188367
+Wednesday,18,Siebel Center for CS,0.2585592143699405
+Wednesday,19,Siebel Center for CS,0.19430137851439547
+Wednesday,20,Siebel Center for CS,0.13456717440985316
+Wednesday,21,Siebel Center for CS,0.08589141829102208
+Wednesday,22,Siebel Center for CS,0.007578775861250312
+Wednesday,23,Siebel Center for CS,0.004108700476629442
+Thursday,0,Siebel Center for CS,5.751343618700702e-06
+Thursday,1,Siebel Center for CS,1.8785907162540667e-05
+Thursday,2,Siebel Center for CS,5.655127711031017e-05
+Thursday,3,Siebel Center for CS,0.00015689172995151526
+Thursday,4,Siebel Center for CS,0.00040114841037147616
+Thursday,5,Siebel Center for CS,0.000945273512332235
+Thursday,6,Siebel Center for CS,0.002052850349389168
+Thursday,7,Siebel Center for CS,0.02739133651086295
+Thursday,8,Siebel Center for CS,0.050525172408335414
+Thursday,9,Siebel Center for CS,0.08589141829102208
+Thursday,10,Siebel Center for CS,0.13456717440985316
+Thursday,11,Siebel Center for CS,0.19430137851439547
+Thursday,12,Siebel Center for CS,0.2585592143699405
+Thursday,13,Siebel Center for CS,0.3170965715188367
+Thursday,14,Siebel Center for CS,0.35840203141324506
+Thursday,15,Siebel Center for CS,0.37333333333333335
+Thursday,16,Siebel Center for CS,0.35840203141324506
+Thursday,17,Siebel Center for CS,0.3170965715188367
+Thursday,18,Siebel Center for CS,0.2585592143699405
+Thursday,19,Siebel Center for CS,0.19430137851439547
+Thursday,20,Siebel Center for CS,0.13456717440985316
+Thursday,21,Siebel Center for CS,0.08589141829102208
+Thursday,22,Siebel Center for CS,0.007578775861250312
+Thursday,23,Siebel Center for CS,0.004108700476629442
+Friday,0,Siebel Center for CS,5.751343618700702e-06
+Friday,1,Siebel Center for CS,1.8785907162540667e-05
+Friday,2,Siebel Center for CS,5.655127711031017e-05
+Friday,3,Siebel Center for CS,0.00015689172995151526
+Friday,4,Siebel Center for CS,0.00040114841037147616
+Friday,5,Siebel Center for CS,0.000945273512332235
+Friday,6,Siebel Center for CS,0.002052850349389168
+Friday,7,Siebel Center for CS,0.02739133651086295
+Friday,8,Siebel Center for CS,0.050525172408335414
+Friday,9,Siebel Center for CS,0.08589141829102208
+Friday,10,Siebel Center for CS,0.13456717440985316
+Friday,11,Siebel Center for CS,0.19430137851439547
+Friday,12,Siebel Center for CS,0.2585592143699405
+Friday,13,Siebel Center for CS,0.3170965715188367
+Friday,14,Siebel Center for CS,0.35840203141324506
+Friday,15,Siebel Center for CS,0.37333333333333335
+Friday,16,Siebel Center for CS,0.35840203141324506
+Friday,17,Siebel Center for CS,0.3170965715188367
+Friday,18,Siebel Center for CS,0.2585592143699405
+Friday,19,Siebel Center for CS,0.19430137851439547
+Friday,20,Siebel Center for CS,0.13456717440985316
+Friday,21,Siebel Center for CS,0.08589141829102208
+Friday,22,Siebel Center for CS,0.007578775861250312
+Friday,23,Siebel Center for CS,0.004108700476629442
+Saturday,0,Siebel Center for CS,2.933185245537359e-06
+Saturday,1,Siebel Center for CS,9.58081265289574e-06
+Saturday,2,Siebel Center for CS,2.8841151326258186e-05
+Saturday,3,Siebel Center for CS,8.00147822752728e-05
+Saturday,4,Siebel Center for CS,0.00020458568928945285
+Saturday,5,Siebel Center for CS,0.0004820894912894398
+Saturday,6,Siebel Center for CS,0.0010469536781884756
+Saturday,7,Siebel Center for CS,0.013969581620540105
+Saturday,8,Siebel Center for CS,0.025767837928251058
+Saturday,9,Siebel Center for CS,0.043804623328421256
+Saturday,10,Siebel Center for CS,0.06862925894902512
+Saturday,11,Siebel Center for CS,0.09909370304234169
+Saturday,12,Siebel Center for CS,0.13186519932866966
+Saturday,13,Siebel Center for CS,0.1617192514746067
+Saturday,14,Siebel Center for CS,0.182785036020755
+Saturday,15,Siebel Center for CS,0.1904
+Saturday,16,Siebel Center for CS,0.182785036020755
+Saturday,17,Siebel Center for CS,0.1617192514746067
+Saturday,18,Siebel Center for CS,0.13186519932866966
+Saturday,19,Siebel Center for CS,0.09909370304234169
+Saturday,20,Siebel Center for CS,0.06862925894902512
+Saturday,21,Siebel Center for CS,0.043804623328421256
+Saturday,22,Siebel Center for CS,0.0038651756892376585
+Saturday,23,Siebel Center for CS,0.0020954372430810157
+Sunday,0,Siebel Center for CS,2.933185245537359e-06
+Sunday,1,Siebel Center for CS,9.58081265289574e-06
+Sunday,2,Siebel Center for CS,2.8841151326258186e-05
+Sunday,3,Siebel Center for CS,8.00147822752728e-05
+Sunday,4,Siebel Center for CS,0.00020458568928945285
+Sunday,5,Siebel Center for CS,0.0004820894912894398
+Sunday,6,Siebel Center for CS,0.0010469536781884756
+Sunday,7,Siebel Center for CS,0.013969581620540105
+Sunday,8,Siebel Center for CS,0.025767837928251058
+Sunday,9,Siebel Center for CS,0.043804623328421256
+Sunday,10,Siebel Center for CS,0.06862925894902512
+Sunday,11,Siebel Center for CS,0.09909370304234169
+Sunday,12,Siebel Center for CS,0.13186519932866966
+Sunday,13,Siebel Center for CS,0.1617192514746067
+Sunday,14,Siebel Center for CS,0.182785036020755
+Sunday,15,Siebel Center for CS,0.1904
+Sunday,16,Siebel Center for CS,0.182785036020755
+Sunday,17,Siebel Center for CS,0.1617192514746067
+Sunday,18,Siebel Center for CS,0.13186519932866966
+Sunday,19,Siebel Center for CS,0.09909370304234169
+Sunday,20,Siebel Center for CS,0.06862925894902512
+Sunday,21,Siebel Center for CS,0.043804623328421256
+Sunday,22,Siebel Center for CS,0.0038651756892376585
+Sunday,23,Siebel Center for CS,0.0020954372430810157
 Monday,0,Siebel Center for Design,0.0
 Monday,1,Siebel Center for Design,0.0
 Monday,2,Siebel Center for Design,0.0
@@ -1182,23 +1182,23 @@ Monday,3,Siebel Center for Design,0.0
 Monday,4,Siebel Center for Design,0.0
 Monday,5,Siebel Center for Design,0.0
 Monday,6,Siebel Center for Design,0.0
-Monday,7,Siebel Center for Design,0.08052449352578456
-Monday,8,Siebel Center for Design,0.1483645642224912
-Monday,9,Siebel Center for Design,0.24461181285177652
-Monday,10,Siebel Center for Design,0.3608857425290169
-Monday,11,Siebel Center for Design,0.47643875473550074
-Monday,12,Siebel Center for Design,0.5628458839995254
-Monday,13,Siebel Center for Design,0.595
-Monday,14,Siebel Center for Design,0.5628458839995254
-Monday,15,Siebel Center for Design,0.47643875473550074
-Monday,16,Siebel Center for Design,0.3608857425290169
-Monday,17,Siebel Center for Design,0.24461181285177652
-Monday,18,Siebel Center for Design,0.1483645642224912
-Monday,19,Siebel Center for Design,0.08052449352578456
-Monday,20,Siebel Center for Design,0.039108474526835614
-Monday,21,Siebel Center for Design,0.016996472966807473
-Monday,22,Siebel Center for Design,0.006609852940254172
-Monday,23,Siebel Center for Design,0.0023002224829863182
+Monday,7,Siebel Center for Design,0.07105102369922166
+Monday,8,Siebel Center for Design,0.1309099096080805
+Monday,9,Siebel Center for Design,0.2158339525162734
+Monday,10,Siebel Center for Design,0.3184285963491325
+Monday,11,Siebel Center for Design,0.4203871365313242
+Monday,12,Siebel Center for Design,0.49662872117605183
+Monday,13,Siebel Center for Design,0.5249999999999999
+Monday,14,Siebel Center for Design,0.49662872117605183
+Monday,15,Siebel Center for Design,0.4203871365313242
+Monday,16,Siebel Center for Design,0.3184285963491325
+Monday,17,Siebel Center for Design,0.2158339525162734
+Monday,18,Siebel Center for Design,0.1309099096080805
+Monday,19,Siebel Center for Design,0.07105102369922166
+Monday,20,Siebel Center for Design,0.034507477523678484
+Monday,21,Siebel Center for Design,0.014996887911888947
+Monday,22,Siebel Center for Design,0.00583222318257721
+Monday,23,Siebel Center for Design,0.002029608073223222
 Tuesday,0,Siebel Center for Design,0.0
 Tuesday,1,Siebel Center for Design,0.0
 Tuesday,2,Siebel Center for Design,0.0
@@ -1206,23 +1206,23 @@ Tuesday,3,Siebel Center for Design,0.0
 Tuesday,4,Siebel Center for Design,0.0
 Tuesday,5,Siebel Center for Design,0.0
 Tuesday,6,Siebel Center for Design,0.0
-Tuesday,7,Siebel Center for Design,0.039108474526835614
-Tuesday,8,Siebel Center for Design,0.08052449352578456
-Tuesday,9,Siebel Center for Design,0.1483645642224912
-Tuesday,10,Siebel Center for Design,0.24461181285177652
-Tuesday,11,Siebel Center for Design,0.3608857425290169
-Tuesday,12,Siebel Center for Design,0.47643875473550074
-Tuesday,13,Siebel Center for Design,0.5628458839995254
-Tuesday,14,Siebel Center for Design,0.595
-Tuesday,15,Siebel Center for Design,0.5628458839995254
-Tuesday,16,Siebel Center for Design,0.47643875473550074
-Tuesday,17,Siebel Center for Design,0.3608857425290169
-Tuesday,18,Siebel Center for Design,0.24461181285177652
-Tuesday,19,Siebel Center for Design,0.1483645642224912
-Tuesday,20,Siebel Center for Design,0.08052449352578456
-Tuesday,21,Siebel Center for Design,0.039108474526835614
-Tuesday,22,Siebel Center for Design,0.016996472966807473
-Tuesday,23,Siebel Center for Design,0.006609852940254172
+Tuesday,7,Siebel Center for Design,0.034507477523678484
+Tuesday,8,Siebel Center for Design,0.07105102369922166
+Tuesday,9,Siebel Center for Design,0.1309099096080805
+Tuesday,10,Siebel Center for Design,0.2158339525162734
+Tuesday,11,Siebel Center for Design,0.3184285963491325
+Tuesday,12,Siebel Center for Design,0.4203871365313242
+Tuesday,13,Siebel Center for Design,0.49662872117605183
+Tuesday,14,Siebel Center for Design,0.5249999999999999
+Tuesday,15,Siebel Center for Design,0.49662872117605183
+Tuesday,16,Siebel Center for Design,0.4203871365313242
+Tuesday,17,Siebel Center for Design,0.3184285963491325
+Tuesday,18,Siebel Center for Design,0.2158339525162734
+Tuesday,19,Siebel Center for Design,0.1309099096080805
+Tuesday,20,Siebel Center for Design,0.07105102369922166
+Tuesday,21,Siebel Center for Design,0.034507477523678484
+Tuesday,22,Siebel Center for Design,0.014996887911888947
+Tuesday,23,Siebel Center for Design,0.00583222318257721
 Wednesday,0,Siebel Center for Design,0.0
 Wednesday,1,Siebel Center for Design,0.0
 Wednesday,2,Siebel Center for Design,0.0
@@ -1230,23 +1230,23 @@ Wednesday,3,Siebel Center for Design,0.0
 Wednesday,4,Siebel Center for Design,0.0
 Wednesday,5,Siebel Center for Design,0.0
 Wednesday,6,Siebel Center for Design,0.0
-Wednesday,7,Siebel Center for Design,0.08052449352578456
-Wednesday,8,Siebel Center for Design,0.1483645642224912
-Wednesday,9,Siebel Center for Design,0.24461181285177652
-Wednesday,10,Siebel Center for Design,0.3608857425290169
-Wednesday,11,Siebel Center for Design,0.47643875473550074
-Wednesday,12,Siebel Center for Design,0.5628458839995254
-Wednesday,13,Siebel Center for Design,0.595
-Wednesday,14,Siebel Center for Design,0.5628458839995254
-Wednesday,15,Siebel Center for Design,0.47643875473550074
-Wednesday,16,Siebel Center for Design,0.3608857425290169
-Wednesday,17,Siebel Center for Design,0.24461181285177652
-Wednesday,18,Siebel Center for Design,0.1483645642224912
-Wednesday,19,Siebel Center for Design,0.08052449352578456
-Wednesday,20,Siebel Center for Design,0.039108474526835614
-Wednesday,21,Siebel Center for Design,0.016996472966807473
-Wednesday,22,Siebel Center for Design,0.006609852940254172
-Wednesday,23,Siebel Center for Design,0.0023002224829863182
+Wednesday,7,Siebel Center for Design,0.07105102369922166
+Wednesday,8,Siebel Center for Design,0.1309099096080805
+Wednesday,9,Siebel Center for Design,0.2158339525162734
+Wednesday,10,Siebel Center for Design,0.3184285963491325
+Wednesday,11,Siebel Center for Design,0.4203871365313242
+Wednesday,12,Siebel Center for Design,0.49662872117605183
+Wednesday,13,Siebel Center for Design,0.5249999999999999
+Wednesday,14,Siebel Center for Design,0.49662872117605183
+Wednesday,15,Siebel Center for Design,0.4203871365313242
+Wednesday,16,Siebel Center for Design,0.3184285963491325
+Wednesday,17,Siebel Center for Design,0.2158339525162734
+Wednesday,18,Siebel Center for Design,0.1309099096080805
+Wednesday,19,Siebel Center for Design,0.07105102369922166
+Wednesday,20,Siebel Center for Design,0.034507477523678484
+Wednesday,21,Siebel Center for Design,0.014996887911888947
+Wednesday,22,Siebel Center for Design,0.00583222318257721
+Wednesday,23,Siebel Center for Design,0.002029608073223222
 Thursday,0,Siebel Center for Design,0.0
 Thursday,1,Siebel Center for Design,0.0
 Thursday,2,Siebel Center for Design,0.0
@@ -1254,23 +1254,23 @@ Thursday,3,Siebel Center for Design,0.0
 Thursday,4,Siebel Center for Design,0.0
 Thursday,5,Siebel Center for Design,0.0
 Thursday,6,Siebel Center for Design,0.0
-Thursday,7,Siebel Center for Design,0.039108474526835614
-Thursday,8,Siebel Center for Design,0.08052449352578456
-Thursday,9,Siebel Center for Design,0.1483645642224912
-Thursday,10,Siebel Center for Design,0.24461181285177652
-Thursday,11,Siebel Center for Design,0.3608857425290169
-Thursday,12,Siebel Center for Design,0.47643875473550074
-Thursday,13,Siebel Center for Design,0.5628458839995254
-Thursday,14,Siebel Center for Design,0.595
-Thursday,15,Siebel Center for Design,0.5628458839995254
-Thursday,16,Siebel Center for Design,0.47643875473550074
-Thursday,17,Siebel Center for Design,0.3608857425290169
-Thursday,18,Siebel Center for Design,0.24461181285177652
-Thursday,19,Siebel Center for Design,0.1483645642224912
-Thursday,20,Siebel Center for Design,0.08052449352578456
-Thursday,21,Siebel Center for Design,0.039108474526835614
-Thursday,22,Siebel Center for Design,0.016996472966807473
-Thursday,23,Siebel Center for Design,0.006609852940254172
+Thursday,7,Siebel Center for Design,0.034507477523678484
+Thursday,8,Siebel Center for Design,0.07105102369922166
+Thursday,9,Siebel Center for Design,0.1309099096080805
+Thursday,10,Siebel Center for Design,0.2158339525162734
+Thursday,11,Siebel Center for Design,0.3184285963491325
+Thursday,12,Siebel Center for Design,0.4203871365313242
+Thursday,13,Siebel Center for Design,0.49662872117605183
+Thursday,14,Siebel Center for Design,0.5249999999999999
+Thursday,15,Siebel Center for Design,0.49662872117605183
+Thursday,16,Siebel Center for Design,0.4203871365313242
+Thursday,17,Siebel Center for Design,0.3184285963491325
+Thursday,18,Siebel Center for Design,0.2158339525162734
+Thursday,19,Siebel Center for Design,0.1309099096080805
+Thursday,20,Siebel Center for Design,0.07105102369922166
+Thursday,21,Siebel Center for Design,0.034507477523678484
+Thursday,22,Siebel Center for Design,0.014996887911888947
+Thursday,23,Siebel Center for Design,0.00583222318257721
 Friday,0,Siebel Center for Design,0.0
 Friday,1,Siebel Center for Design,0.0
 Friday,2,Siebel Center for Design,0.0
@@ -1278,23 +1278,23 @@ Friday,3,Siebel Center for Design,0.0
 Friday,4,Siebel Center for Design,0.0
 Friday,5,Siebel Center for Design,0.0
 Friday,6,Siebel Center for Design,0.0
-Friday,7,Siebel Center for Design,0.1483645642224912
-Friday,8,Siebel Center for Design,0.24461181285177652
-Friday,9,Siebel Center for Design,0.3608857425290169
-Friday,10,Siebel Center for Design,0.47643875473550074
-Friday,11,Siebel Center for Design,0.5628458839995254
-Friday,12,Siebel Center for Design,0.595
-Friday,13,Siebel Center for Design,0.5628458839995254
-Friday,14,Siebel Center for Design,0.47643875473550074
-Friday,15,Siebel Center for Design,0.3608857425290169
-Friday,16,Siebel Center for Design,0.24461181285177652
-Friday,17,Siebel Center for Design,0.1483645642224912
-Friday,18,Siebel Center for Design,0.08052449352578456
-Friday,19,Siebel Center for Design,0.039108474526835614
-Friday,20,Siebel Center for Design,0.016996472966807473
-Friday,21,Siebel Center for Design,0.006609852940254172
-Friday,22,Siebel Center for Design,0.0023002224829863182
-Friday,23,Siebel Center for Design,0.0007162966969227813
+Friday,7,Siebel Center for Design,0.1309099096080805
+Friday,8,Siebel Center for Design,0.2158339525162734
+Friday,9,Siebel Center for Design,0.3184285963491325
+Friday,10,Siebel Center for Design,0.4203871365313242
+Friday,11,Siebel Center for Design,0.49662872117605183
+Friday,12,Siebel Center for Design,0.5249999999999999
+Friday,13,Siebel Center for Design,0.49662872117605183
+Friday,14,Siebel Center for Design,0.4203871365313242
+Friday,15,Siebel Center for Design,0.3184285963491325
+Friday,16,Siebel Center for Design,0.2158339525162734
+Friday,17,Siebel Center for Design,0.1309099096080805
+Friday,18,Siebel Center for Design,0.07105102369922166
+Friday,19,Siebel Center for Design,0.034507477523678484
+Friday,20,Siebel Center for Design,0.014996887911888947
+Friday,21,Siebel Center for Design,0.00583222318257721
+Friday,22,Siebel Center for Design,0.002029608073223222
+Friday,23,Siebel Center for Design,0.000632026497284807
 Saturday,0,Siebel Center for Design,0.0
 Saturday,1,Siebel Center for Design,0.0
 Saturday,2,Siebel Center for Design,0.0
