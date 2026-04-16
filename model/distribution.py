@@ -3,7 +3,7 @@ grainger_max = 0.8
 funk_max = 0.75
 union_max_lunch = 0.75
 union_max_dinner = 0.65
-main_lib_max = 0.75
+main_lib_max = 0.7
 
 import pandas as pd
 import numpy as np

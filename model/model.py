@@ -25,63 +25,81 @@ class CampusDemandModel:
         self.exam_schedule = {
             # Week 3
             (3, 'Tuesday'): 1,   # Chem 104 CBTF
-            (3, 'Thursday'): 1,  # CS 173 CBTF
-            (3, 'Friday'): 1,    # Ochem 1
+            (3, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (3, 'Friday'): 1,    # Ochem 1 Exam 1
+            
             # Week 4
-            (4, 'Wednesday'): 2, # Math 257 CBTF, Chem 101
-            (4, 'Thursday'): 1,  # CS 173 CBTF
+            (4, 'Wednesday'): 2, # Math 257 CBTF, Chem 101 Midterm 1
+            (4, 'Thursday'): 1,  # CS 173 A&B CBTF
             (4, 'Friday'): 1,    # Math 241 A/C CBTF
-            (4, 'Saturday'): 1,  # MCB 150 CBTF
+            (4, 'Saturday'): 1,  # MCB 150 CBTF Exam 1
+            
             # Week 5
-            (5, 'Tuesday'): 2,   # Math 220, Chem 104 CBTF
-            (5, 'Wednesday'): 1, # Chem 102
-            (5, 'Thursday'): 2,  # Math 241 B, CS 173 CBTF
-            (5, 'Friday'): 1,    # Phys 211
-            (5, 'Sunday'): 1,    # Phys 212 CBTF
+            (5, 'Tuesday'): 2,   # Math 220 Exam 1, Chem 104 CBTF
+            (5, 'Wednesday'): 1, # Chem 102 Midterm 1
+            (5, 'Thursday'): 2,  # Math 241 B Midterm 1, CS 173 A&B CBTF
+            (5, 'Friday'): 1,    # Phys 211 Exam 1
+            (5, 'Sunday'): 1,    # Phys 212 CBTF Exam 1
+            
             # Week 6
-            (6, 'Thursday'): 1,  # CS 173 CBTF
-            (6, 'Friday'): 1,    # CS 173 C
+            (6, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (6, 'Friday'): 1,    # CS 173 C Midterm 1
+            
             # Week 7
             (7, 'Tuesday'): 1,   # Chem 104 CBTF
-            (7, 'Wednesday'): 1, # Chem 101
-            (7, 'Thursday'): 1,  # CS 173 CBTF
-            (7, 'Friday'): 2,    # Math 241 A/C CBTF, Ochem 1
+            (7, 'Wednesday'): 1, # Chem 101 Midterm 2
+            (7, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (7, 'Friday'): 2,    # Math 241 A/C CBTF, Ochem 1 Exam 2
+            
             # Week 8
             (8, 'Wednesday'): 1, # Math 257 CBTF
-            (8, 'Thursday'): 1,  # CS 173 CBTF
-            (8, 'Friday'): 1,    # MCB 150 CBTF
+            (8, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (8, 'Friday'): 1,    # MCB 150 CBTF Exam 2
+            
             # Week 9
-            (9, 'Tuesday'): 2,   # Math 220, Chem 104 CBTF
-            (9, 'Thursday'): 2,  # Math 241 B, CS 173 CBTF
-            (9, 'Friday'): 2,    # Math 241 A/C CBTF, Phys 211
+            (9, 'Tuesday'): 2,   # Math 220 Exam 2, Chem 104 CBTF
+            (9, 'Thursday'): 2,  # Math 241 B Midterm 2, CS 173 A&B CBTF
+            (9, 'Friday'): 2,    # Math 241 A/C CBTF, Phys 211 Exam 2
+            
             # Week 10
-            (10, 'Wednesday'): 1, # Chem 102
-            (10, 'Thursday'): 1,  # CS 173 CBTF
-            (10, 'Friday'): 1,    # CS 173 C
-            (10, 'Sunday'): 1,    # Phys 212 CBTF
+            (10, 'Wednesday'): 1, # Chem 102 Midterm 2
+            (10, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (10, 'Friday'): 1,    # CS 173 C Midterm 2
+            (10, 'Sunday'): 1,    # Phys 212 CBTF Exam 2
+            
             # Week 11
-            (11, 'Friday'): 1, # Ochem 1
+            (11, 'Tuesday'): 1,   # Chem 104 CBTF
+            (11, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (11, 'Friday'): 1,    # Ochem 1 Exam 3
+            
             # Week 12
-            (12, 'Tuesday') : 1,
-            (12, 'Wednesday') : 2,
-            (12, 'Friday') : 1,
-            (12, 'Saturday') : 1,
+            (12, 'Tuesday'): 1,   # Math 220 Exam 3
+            (12, 'Wednesday'): 2, # Math 257 CBTF, Chem 101 Midterm 3
+            (12, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (12, 'Friday'): 1,    # Math 241 A/C CBTF
+            (12, 'Saturday'): 1,  # MCB 150 CBTF Exam 3
+            
             # Week 13
-            (13, 'Thursday') : 1,
-            (13, 'Friday') : 1,
+            (13, 'Tuesday'): 1,   # Chem 104 CBTF
+            (13, 'Thursday'): 2,  # Math 241 B Midterm 3, CS 173 A&B CBTF
+            (13, 'Friday'): 1,    # Phys 211 Exam 3
+            
             # Week 14
-            (14, 'Friday') : 1,
-            (14, 'Sunday') : 1,
+            (14, 'Wednesday'): 1, # Chem 102 Midterm 3
+            (14, 'Thursday'): 1,  # CS 173 A&B CBTF
+            (14, 'Friday'): 1,    # CS 173 C Midterm 3
+            (14, 'Sunday'): 1,    # Phys 212 CBTF Exam 3
+            
             # Week 15
-            (15, 'Wednesday') : 1,
-            (15, 'Thursday') : 1,
-            # Finals
-            (15, 'Friday') : 4,
-            (16, 'Monday') : 4,
-            (16, 'Tuesday') : 5,
-            (16, 'Wednesday') : 2,
-            (16, 'Thursday') : 3
-
+            (15, 'Tuesday'): 1,   # Chem 104 CBTF
+            (15, 'Wednesday'): 1, # Ochem 1 Exam 4
+            (15, 'Friday'): 5,    # Math 241 A/C CBTF Midterm, Chem 101 Final, Chem 102 (F) Final, Chem 104 (C) Final, Phys 211 (A5) Final
+            
+            # Week 16 (Finals Week)
+            (16, 'Monday'): 4,    # Math 220 Final, Chem 104 (A) Final, Phys 211 (A4) Final, MCB 150 Final
+            (16, 'Tuesday'): 5,   # Math 241 (B) Final, Chem 102 (D) Final, Chem 104 (D) Final, Phys 211 (A1) Final, Phys 212 Final
+            (16, 'Wednesday'): 2, # Chem 102 (B) Final, CS 173 Final
+            (16, 'Thursday'): 3   # Chem 102 (A, C, O) Final, Chem 104 (B, E) Final, Phys 211 (A2, A3) Final
         }
 
     def _get_future_day(self, current_week, current_day, days_ahead):
@@ -105,7 +123,7 @@ class CampusDemandModel:
             
         # The squashing logic we built earlier
         raw_score = sum([(4 - d) for d in exams_list])
-        THRESHOLD, MAX_BOOST, GROWTH_RATE = 4.0, 0.60, 0.25
+        THRESHOLD, MAX_BOOST, GROWTH_RATE = 3.0, 0.60, 0.25
         
         if raw_score <= THRESHOLD:
             return 1.0
@@ -169,4 +187,57 @@ class CampusDemandModel:
 df_melted = pd.read_csv('./data/base_popularity_distributions.csv')
 
 model = CampusDemandModel(baseline_df=df_melted)
-print(model.predict_demand(week=16, day='Saturday', hour=14))
+
+import pandas as pd
+
+# Assuming you have already instantiated your model:
+# model = CampusDemandModel(baseline_df=df_melted)
+
+records = []
+days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+# Iterate from Week 1 to Week 16
+for week in range(1, 17):
+    for day_idx, day in enumerate(days_of_week):
+        
+        # Stop condition: We only want up to Week 16 Thursday
+        # Thursday is index 3. If we hit Week 16 and index > 3, stop.
+        if week == 16 and day_idx > 3:
+            break
+            
+        for hour in range(24):
+            # Query the model for this specific hour
+            prediction = model.predict_demand(week, day, hour)
+            
+            # Skip if the model returned an error string (shouldn't happen with clean baseline)
+            if isinstance(prediction, str):
+                continue
+                
+            multiplier = prediction['Pressure_Multiplier']
+            demands = prediction['Location_Demands']
+            
+            # Flatten the dictionary into rows for our dataframe
+            for building, demand_val in demands.items():
+                records.append({
+                    'Week': week,
+                    'Day': day,
+                    'Hour': hour,
+                    'Building': building,
+                    'Demand_Prediction': demand_val,
+                    'Pressure_Multiplier': multiplier
+                })
+
+# Create the master DataFrame
+master_demand_df = pd.DataFrame(records)
+
+# Optional: Add a datetime index or a generic sequence for easier time-series plotting
+master_demand_df['Timestep'] = (master_demand_df['Week'] - 1) * 168 + \
+                               (master_demand_df['Day'].apply(lambda x: days_of_week.index(x))) * 24 + \
+                               master_demand_df['Hour']
+
+# Preview the results
+print(master_demand_df.head(10))
+print(f"\nTotal rows generated: {len(master_demand_df)}")
+
+# Save to CSV for your frontend / visualization tool
+master_demand_df.to_csv("./data/master_campus_demand_W1_to_W16.csv", index=False)
