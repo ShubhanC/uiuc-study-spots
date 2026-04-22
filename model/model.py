@@ -14,9 +14,9 @@ class CampusDemandModel:
         
         # Survey votes for active distribution (excluding Dorms)
         self.building_votes = {
-            'Grainger Library': 15, 'CIF': 14, 'Illini Union': 13, 
-            'Main Library': 10, 'Funk Library': 10, 'BIF': 7, 
-            'Siebel Center for Design': 7, 'Siebel Center for CS': 5
+            'Grainger Library': 17, 'CIF': 15, 'Illini Union': 14, 
+            'Main Library': 10, 'Funk Library': 11, 'BIF': 8, 
+            'Siebel Center for Design': 7, 'Siebel Center for CS': 7
         }
         self.total_votes = sum(self.building_votes.values())
         

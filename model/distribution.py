@@ -62,10 +62,10 @@ df_base = pd.DataFrame(base_data)
 
 # --- 3. The Sister Mapping & Survey Scaling ---
 # Multiply by the survey ratios (e.g. CIF had 14 votes, Grainger had 15)
-df_base['CIF'] = df_base['Grainger Library'] * (14/15)
-df_base['BIF'] = df_base['Main Library'] * (7/10)
-df_base['Siebel Center for CS'] = df_base['Grainger Library'] * (7/15)
-df_base['Siebel Center for Design'] = df_base['Funk Library'] * (7/10)
+df_base['CIF'] = df_base['Grainger Library'] * (15/17)
+df_base['BIF'] = df_base['Main Library'] * (8/10)
+df_base['Siebel Center for CS'] = df_base['Grainger Library'] * (8/14)
+df_base['Siebel Center for Design'] = df_base['Funk Library'] * (7/11)
 
 # Reshape data for ML
 df_melted = df_base.melt(id_vars=['Day', 'Hour'], var_name='Building', value_name='Base_Popularity')
@@ -146,15 +146,8 @@ def apply_hours_mask(row):
     if hour in open_hours:
         return base_pop
     else:
-        # --- Handle After-Hours Edge Cases ---
-        
-        # Siebel CS Swipe Access: Instead of dropping to 0, it drops to 15% of its normal 
-        # popularity curve (simulating majors swiping in to study late).
-        if building == 'Siebel Center for CS':
-            return base_pop * 0.15 
-            
-        # All other buildings are strictly locked
-        return 0.0
+        # All buildings are strictly locked
+        return -1
 
 df_melted['Base_Popularity'] = df_melted.apply(apply_hours_mask, axis=1)
 
