@@ -2,4 +2,4 @@
 
 DSDG Product Design Solution - [link here]
 Data Science: Shubhan Chari
-UI/UX: Sua Choi
+UI/UX: Sua Choi and Xinyu (Skylar) Xie
