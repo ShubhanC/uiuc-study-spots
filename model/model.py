@@ -110,24 +110,24 @@ class CampusDemandModel:
         return new_week, new_day
 
     def _calculate_pressure(self, week, day):
-        """Looks ahead 3 days, fetches exams, and returns the multiplier."""
         exams_list = []
         
-        # Look at Today (0), Tomorrow (1), In 2 days (2), In 3 days (3)
+        # today (0), tomorrow (1), In 2 days (2), In 3 days (3) for each exam
         for days_ahead in range(4):
             target_week, target_day = self._get_future_day(week, day, days_ahead)
             exam_count = self.exam_schedule.get((target_week, target_day), 0)
             
-            # Add an entry to the list for EVERY exam found that day
+            # basically turning exams_list into a list of # days until an exam
+            # eg. [0, 0, 1, 2, 2, 3]
             exams_list.extend([days_ahead] * exam_count)
             
-        # The squashing logic we built earlier
+        # building the multiplier
         raw_score = sum([(4 - d) for d in exams_list])
-        THRESHOLD, MAX_BOOST, GROWTH_RATE = 3.0, 0.60, 0.25
+        threshold, max_boost, growth_rate = 3.0, 0.60, 0.25
         
-        if raw_score <= THRESHOLD:
+        if raw_score <= threshold:
             return 1.0
-        return 1.0 + (MAX_BOOST * (1 - math.exp(-GROWTH_RATE * (raw_score - THRESHOLD))))
+        return 1.0 + (max_boost * (1 - math.exp(-growth_rate * (raw_score - threshold))))
 
     def predict_demand(self, week, day, hour):
         """The main prediction pipeline."""
