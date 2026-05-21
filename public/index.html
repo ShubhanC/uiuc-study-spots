@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illini Spots | UIUC Study Spot Predictor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Radio+Canada+Big:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Wrapper -->
+    <div id="app">
+        
+        <!-- PAGE 1: FRONT PAGE -->
+        <section id="view-home" class="view active">
+            <div class="intro-section">
+                <div class="intro-content">
+                    <h1 class="header-text">ILLINI SPOTS</h1>
+                    <p class="subtitle">See real-time availability, avoid crowds, and find the best place to focus on campus</p>
+                    <div class="button-row">
+                        <button onclick="navigateTo('view-hub')" class="btn-primary">
+                            <span>Explore Study Spots</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-image">
+                        <img src="svg_codes/front_page2.svg" alt="Hero Image" class="svg-bg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 2: HUB VIEW -->
+        <section id="view-hub" class="view">
+            <nav class="top-nav">
+                <button onclick="navigateTo('view-home')" class="btn-back">← Back</button>
+                <h2 class="nav-title">Study Spot Hub</h2>
+            </nav>
+            <div class="hub-container">
+                <div class="hub-options">
+                    <div class="option-card" onclick="navigateTo('view-map')">
+                        <img src="svg_codes/new_map_view2.png" alt="Map View">
+                        <h3>Campus Map</h3>
+                        <p>Visualize spots geographically</p>
+                    </div>
+                    <div class="option-card" onclick="navigateTo('view-calendar-out')">
+                        <img src="svg_codes/calendar_view_out.svg" alt="Calendar View">
+                        <h3>Calendar</h3>
+                        <p>Browse by month and day</p>
+                    </div>
+                </div>
+                <div class="building-selector">
+                    <h3>Quick Search</h3>
+                    <select id="building-dropdown" onchange="handleBuildingChange()"></select>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 3: MAP VIEW -->
+        <section id="view-map" class="view">
+            <nav class="top-nav">
+                <button onclick="navigateTo('view-hub')" class="btn-back">← Back to Hub</button>
+                <h2 class="nav-title">Campus Map</h2>
+            </nav>
+            <div class="map-layout">
+                <div class="map-area">
+                    <div class="map-container">
+                        <img src="svg_codes/new_map_view2.png" alt="Campus Map" class="map-svg">
+                        <div id="map-markers"></div>
+                        <div class="map-legend">
+                            <div class="map-legend-title">Demand</div>
+                            <div class="map-legend-row"><span class="map-legend-dot" style="background:#4CAF50;"></span> Available</div>
+                            <div class="map-legend-row"><span class="map-legend-dot" style="background:#FDD835;"></span> Moderate</div>
+                            <div class="map-legend-row"><span class="map-legend-dot" style="background:#FF5F05;"></span> Busy</div>
+                            <div class="map-legend-row"><span class="map-legend-dot" style="background:#e53935;"></span> Crowded</div>
+                            <div class="map-legend-row"><span class="map-legend-dot" style="background:#888;"></span> Closed</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-detail-panel" id="map-detail-panel">
+                    <div class="map-detail-header">
+                        <h3>Live Demand</h3>
+                        <div class="map-datetime" id="map-datetime">Loading...</div>
+                        <div class="map-semester" id="map-semester"></div>
+                    </div>
+                    <div class="map-detail-body" id="map-detail-body">
+                        <div class="map-panel-placeholder">Select a building on the map for details</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 4: MONTHLY CALENDAR VIEW -->
+        <section id="view-calendar-out" class="view">
+            <nav class="top-nav">
+                <button onclick="navigateTo('view-hub')" class="btn-back">← Back to Hub</button>
+                <h2 class="nav-title">Calendar</h2>
+            </nav>
+            <div class="month-nav">
+                <button onclick="navigateMonth(-1)" class="month-arrow">←</button>
+                <h3 class="month-title" id="month-title">May 2026</h3>
+                <button onclick="navigateMonth(1)" class="month-arrow">→</button>
+            </div>
+            <div class="month-calendar-wrapper">
+                <div class="month-grid" id="month-grid">
+                    <!-- Calendar grid generated by JS -->
+                </div>
+            </div>
+            <div class="month-legend">
+                <span class="month-legend-text">Click a day to view predicted demand</span>
+            </div>
+        </section>
+
+        <!-- PAGE 5: CALENDAR DETAILS (Hourly building view for a selected date) -->
+        <section id="view-calendar-in" class="view">
+            <nav class="top-nav">
+                <button onclick="navigateTo('view-calendar-out')" class="btn-back">← Back to Calendar</button>
+                <h2 class="nav-title">Day Forecast</h2>
+            </nav>
+            <div class="cal-in-header">
+                <div class="cal-date-display">
+                    <span id="detail-full-date" style="font-weight:700;font-size:18px;">Loading...</span>
+                </div>
+                <div class="hour-controls-in">
+                    <span id="hour-display-in">12:00</span>
+                    <input type="range" id="hour-slider-in" min="0" max="23" value="12" oninput="updateDayDetail()">
+                </div>
+            </div>
+            <div class="cal-in-content">
+                <!-- Hourly bar chart for selected building -->
+                <div class="hourly-chart" id="hourly-chart">
+                    <!-- 24 bars generated by JS -->
+                </div>
+                <!-- Building demand list -->
+                <div class="demand-list" id="demand-list">
+                    <!-- Building cards generated by JS -->
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

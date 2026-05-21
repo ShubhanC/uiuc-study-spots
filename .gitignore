@@ -2,3 +2,8 @@ data/fa2024.csv
 data/sp2025.csv
 
 .continue/
+.claude/
+test-results/
+CLAUDE.md
+.vscode/
+.vercel
