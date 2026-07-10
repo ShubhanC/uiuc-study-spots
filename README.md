@@ -19,3 +19,5 @@ Predicts for 8 locations:
 Predictions use Google Popular Times Data (foot traffic), student input, and exam scheduling to predict how busy a place is.
 
 **NOTE:** These predictions are far from perfect, but it should help a student determine where to study or if their favorite study spots are going to be busy!
+
+AI note: "In creating this project, I collaborated with Claude to assist with drafting and frontend implementation. I affirm that all AI-generated and co-created content underwent thorough review and evaluation. The final output accurately reflects my understanding, expertise, and intended meaning. While AI assistance was instrumental in the process, I maintain full responsibility for the content, its accuracy, and its presentation. This disclosure is made in the spirit of transparency and to acknowledge the role of AI in the creation process."
