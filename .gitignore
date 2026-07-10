@@ -7,3 +7,7 @@ test-results/
 CLAUDE.md
 .vscode/
 .vercel
+
+graphify-out/
+
+**/.DS_Store
