@@ -22,9 +22,12 @@ df = pd.read_csv(DATA_FILE)
 #   weeks: number of data weeks (default 16)
 #   has_spring_break: True for Spring semesters with a break week
 #   spring_break_calendar_week: which calendar week (1-based) is spring break
+#   has_thanksgiving_break: True for Fall semesters with a Thanksgiving break week
+#   thanksgiving_break_calendar_week: which calendar week (1-based) is Thanksgiving break
 SEMESTERS = [
     {'id': 'sp2026', 'type': 'Spring', 'start_date': '2026-01-20', 'weeks': 16, 'has_spring_break': True,  'spring_break_calendar_week': 9},
-    {'id': 'fa2026', 'type': 'Fall',   'start_date': '2026-08-24', 'weeks': 16, 'has_spring_break': False},
+    {'id': 'fa2026', 'type': 'Fall',   'start_date': '2026-08-24', 'weeks': 16, 'has_spring_break': False,
+     'has_thanksgiving_break': True, 'thanksgiving_break_calendar_week': 13},
     {'id': 'sp2027', 'type': 'Spring', 'start_date': '2027-01-19', 'weeks': 16, 'has_spring_break': True,  'spring_break_calendar_week': 9},
 ]
 
@@ -38,9 +41,11 @@ def get_current_academic_time(now=None):
     current_semester = None
     for sem in SEMESTERS:
         start = datetime.strptime(sem['start_date'], '%Y-%m-%d')
-        end = start + timedelta(weeks=sem['weeks'])
-        if sem.get('has_spring_break'):
-            end += timedelta(weeks=1)  # spring break adds a week
+        # Total calendar weeks = data weeks + any break weeks
+        total_cal_weeks = sem['weeks'] + (1 if sem.get('has_spring_break') else 0) + (1 if sem.get('has_thanksgiving_break') else 0)
+        end = start + timedelta(weeks=total_cal_weeks)
+        # Shift end to Friday of week 16 (not the Monday following)
+        end -= timedelta(days=3)
         if start <= now < end:
             current_semester = sem
             break
@@ -60,18 +65,28 @@ def get_current_academic_time(now=None):
     days_since_start = (now - start).days
 
     # Calendar week (1-based) within the semester
+    total_cal_weeks = current_semester['weeks'] + (1 if current_semester.get('has_spring_break') else 0) + (1 if current_semester.get('has_thanksgiving_break') else 0)
     calendar_week = (days_since_start // 7) + 1
-    calendar_week = max(1, min(calendar_week, current_semester['weeks'] + (1 if current_semester.get('has_spring_break') else 0)))
+    calendar_week = max(1, min(calendar_week, total_cal_weeks))
 
-    # Convert calendar week to data week (accounting for spring break)
+    # Convert calendar week to data week (accounting for breaks)
     data_week = calendar_week
+
     if current_semester.get('has_spring_break'):
         sbw = current_semester.get('spring_break_calendar_week', 9)
         if calendar_week >= sbw:
-            data_week = calendar_week - 1  # Skip the break week in data
-        # If we landed exactly on spring break week, move to next week
-        if calendar_week == sbw:
-            data_week = sbw  # Map to the week after spring break (data week 9)
+            data_week = calendar_week - 1
+
+    if current_semester.get('has_thanksgiving_break'):
+        tbw = current_semester.get('thanksgiving_break_calendar_week')
+        if calendar_week >= tbw:
+            data_week -= 1
+        # Also need to add back the spring break offset since both affect the same logic
+        if current_semester.get('has_spring_break'):
+            sbw = current_semester.get('spring_break_calendar_week', 9)
+            if calendar_week >= tbw and calendar_week >= sbw:
+                # Both breaks have passed: calendar_week - 2
+                pass  # data_week already has the right offset due to cumulative subtraction
 
     data_week = max(1, min(data_week, current_semester['weeks']))
 
@@ -109,7 +124,7 @@ def get_demand():
 
     filtered_df = df[(df['Week'] == week) & (df['Day'] == day) & (df['Hour'] == hour)]
     results = filtered_df[['Building', 'Demand_Prediction']].to_dict('records')
-    
+
     return jsonify({
         'week': week, 'day': day, 'hour': hour, 'predictions': results
     })
