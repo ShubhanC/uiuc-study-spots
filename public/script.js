@@ -28,6 +28,22 @@ const SEMESTERS = [
     { id: 'sp2027', type: 'Spring', start_date: '2027-01-19', weeks: 16, has_spring_break: true,  spring_break_calendar_week: 9 },
 ];
 
+function demandColor(demand) {
+    if (demand < 0) return '#888';
+    if (demand >= 0.8) return '#e53935';  // red
+    if (demand >= 0.6) return '#FF5F05';  // orange
+    if (demand >= 0.3) return '#FDD835';  // yellow
+    return '#4CAF50';                      // green
+}
+
+function demandStatus(demand) {
+    if (demand < 0) return 'Closed';
+    if (demand >= 0.8) return 'Crowded';
+    if (demand >= 0.6) return 'Busy';
+    if (demand >= 0.3) return 'Moderate';
+    return 'Available';
+}
+
 function getCurrentAcademicTime(now) {
     now = now || new Date();
     const ts = now.getTime();
