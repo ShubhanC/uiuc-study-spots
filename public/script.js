@@ -268,6 +268,11 @@ async function renderMonthlyCalendar() {
     }
 }
 
+function navigateMonth(delta) {
+    calendarDate.setMonth(calendarDate.getMonth() + delta);
+    renderMonthlyCalendar();
+}
+
 /* ── Calendar In: Hourly details ── */
 
 async function renderHourlyBars() {
@@ -326,4 +331,304 @@ async function renderHourlyBars() {
     }
 }
 
-/** rest of the original file follows unchanged **/
+/* ── Calendar In: Day Detail View ── */
+
+async function updateDayDetail() {
+    const slider = document.getElementById('hour-slider-in');
+    selectedHour = parseInt(slider ? slider.value : selectedHour);
+    const display = document.getElementById('hour-display-in');
+    if (display) display.textContent = `${selectedHour}:00`;
+
+    // Format the date nicely
+    if (selectedDateStr) {
+        const d = new Date(selectedDateStr + 'T12:00:00');
+        const formatted = d.toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+        const el = document.getElementById('detail-full-date');
+        if (el) el.textContent = formatted;
+    }
+
+    // Check if this date is in a semester
+    const info = dateToWeekInfo(selectedDateStr);
+    const inSemester = info && info.inSemester;
+
+    if (!inSemester) {
+        // Holiday — show all buildings with zero demand
+        const chart = document.getElementById('hourly-chart');
+        if (chart) {
+            chart.innerHTML = '';
+            for (let h = 0; h < 24; h++) {
+                const container = document.createElement('div');
+                container.className = 'hour-bar-container';
+                const bar = document.createElement('div');
+                bar.className = 'hour-bar';
+                bar.style.height = '0%';
+                bar.style.background = '#eee';
+                container.appendChild(bar);
+                const label = document.createElement('span');
+                label.className = 'hour-label';
+                label.textContent = `${h}`;
+                container.appendChild(label);
+                chart.appendChild(container);
+            }
+        }
+        const list = document.getElementById('demand-list');
+        if (list) {
+            list.innerHTML = allBuildings.map(b => {
+                const displayName = MAP_LABELS[b] || b;
+                return `
+                    <div class="building-demand-card" style="border-left-color:#888;">
+                        <div class="building-info">
+                            <h4>${displayName}</h4>
+                            <p>Holiday</p>
+                        </div>
+                        <div class="demand-bar-bg">
+                            <div class="demand-bar-fill" style="width:0%;background:#888;"></div>
+                        </div>
+                        <span class="demand-value">0%</span>
+                    </div>
+                `;
+            }).join('');
+        }
+        return;
+    }
+
+    selectedWeek = info.week;
+    selectedDay = info.day;
+
+    // Build hourly chart
+    await renderHourlyBars();
+
+    // Build demand list
+    await renderDemandList();
+}
+
+async function renderDemandList() {
+    const list = document.getElementById('demand-list');
+    if (!list) return;
+
+    list.innerHTML = '<p style="padding:10px 0;color:#888;">Loading...</p>';
+
+    try {
+        const res = await fetch(`/api/demand?week=${selectedWeek}&day=${selectedDay}&hour=${selectedHour}`);
+        const data = await res.json();
+        const items = data.predictions || [];
+
+        list.innerHTML = '';
+
+        items.forEach(item => {
+            const demand = item.Demand_Prediction;
+            const percent = demand < 0 ? 0 : Math.round(demand * 100);
+            const color = demandColor(demand);
+            const statusText = demand < 0 ? 'Closed' : demandStatus(demand);
+
+            const card = document.createElement('div');
+            card.className = 'building-demand-card';
+            card.style.borderLeftColor = color;
+            card.onclick = () => {
+                selectedBuilding = item.Building;
+                renderHourlyBars();
+            };
+            card.innerHTML = `
+                <div class="building-info">
+                    <h4>${item.Building}${item.Building === selectedBuilding ? ' <span style="font-size:12px;color:#FF5F05;">(selected)</span>' : ''}</h4>
+                    <p>${statusText}</p>
+                </div>
+                <div class="demand-bar-bg">
+                    <div class="demand-bar-fill" style="width:${percent}%;background:${color};"></div>
+                </div>
+                <span class="demand-value">${percent}%</span>
+            `;
+            list.appendChild(card);
+        });
+    } catch (e) {
+        list.innerHTML = '<p style="padding:10px 0;color:#888;">Error loading data.</p>';
+    }
+}
+
+function populateBuildingDropdown() {
+    const select = document.getElementById('building-dropdown');
+    if (!select) return;
+    select.innerHTML = '<option value="">Select a building...</option>';
+    allBuildings.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b;
+        opt.textContent = b;
+        select.appendChild(opt);
+    });
+}
+
+/* ── Hub ── */
+
+function handleBuildingChange() {
+    const select = document.getElementById('building-dropdown');
+    if (!select || !select.value) return;
+    selectedBuilding = select.value;
+    if (!selectedDateStr) {
+        const now = new Date();
+        selectedDateStr = now.toISOString().slice(0, 10);
+    }
+    selectedHour = 12;
+    navigateTo('view-calendar-in');
+}
+
+/* ── Map ── */
+
+async function renderMapMarkers() {
+    const container = document.getElementById('map-markers');
+    if (!container) return;
+    container.innerHTML = '';
+
+    // Update date/time display
+    const acad = getCurrentAcademicTime();
+    const dtEl = document.getElementById('map-datetime');
+    const semEl = document.getElementById('map-semester');
+    const isHoliday = acad && acad.holiday;
+
+    if (dtEl && acad) dtEl.textContent = acad.datetime;
+    if (semEl && acad) {
+        if (isHoliday) {
+            semEl.textContent = 'Holiday — No classes in session';
+            semEl.style.color = '#888';
+        } else {
+            semEl.textContent = `${acad.semester_type} ${acad.semester_id.slice(2,6)} · Week ${acad.week} · ${acad.day}`;
+            semEl.style.color = '';
+        }
+    }
+
+    // Fetch current demand (skip if holiday — all demand = 0)
+    let predictions = [];
+    if (!isHoliday) {
+        try {
+            const res = await fetch('/api/current_demand');
+            const data = await res.json();
+            predictions = data.predictions || [];
+        } catch (_) {}
+    }
+
+    // Build a lookup: building -> demand
+    const demandMap = {};
+    predictions.forEach(p => { demandMap[p.Building] = p.Demand_Prediction; });
+
+    // Update allBuildings from predictions
+    if (predictions.length) {
+        allBuildings = predictions.map(p => p.Building);
+    }
+
+    allBuildings.forEach(building => {
+        const pos = BUILDING_POSITIONS[building];
+        if (!pos) return;
+
+        let demand, percent, color;
+
+        if (isHoliday) {
+            demand = 0;
+            percent = 0;
+            color = '#888';
+        } else {
+            demand = demandMap[building] !== undefined ? demandMap[building] : -1;
+            percent = demand < 0 ? 0 : Math.round(demand * 100);
+            color = demandColor(demand);
+        }
+
+        // — Semi-transparent colored overlay acting as button —
+        const overlay = document.createElement('div');
+        overlay.className = 'map-building-overlay';
+        overlay.style.left = `${pos.x}%`;
+        overlay.style.top = `${pos.y}%`;
+        overlay.style.background = `${color}CC`; // hex with alpha ~80%
+        overlay.title = `${MAP_LABELS[building] || building}\n${percent}% · ${demand < 0 ? 'Closed' : demandStatus(demand)}`;
+
+        overlay.onclick = () => {
+            selectedBuilding = building;
+            const now = new Date();
+            selectedDateStr = now.toISOString().slice(0, 10);
+            navigateTo('view-calendar-in');
+        };
+
+        // Label inside the overlay
+        const labelEl = document.createElement('span');
+        labelEl.className = 'overlay-label';
+        labelEl.textContent = MAP_LABELS[building] || building;
+        overlay.appendChild(labelEl);
+
+        container.appendChild(overlay);
+    });
+
+    // Populate the detail panel
+    populateMapDetailPanel(predictions, isHoliday);
+}
+
+function populateMapDetailPanel(predictions, isHoliday) {
+    const body = document.getElementById('map-detail-body');
+    if (!body) return;
+
+    const acad = getCurrentAcademicTime();
+
+    // Holiday state
+    if (isHoliday) {
+        let html = '<div class="map-detail-section-title">Building Demand</div>';
+        allBuildings.forEach(building => {
+            const displayName = MAP_LABELS[building] || building;
+            html += `
+                <div class="map-building-row">
+                    <div class="map-building-dot" style="background:#888;"></div>
+                    <span class="map-building-name">${displayName}</span>
+                    <span class="map-building-status" style="color:#888;">Holiday</span>
+                    <span class="map-building-percent">0%</span>
+                </div>
+            `;
+        });
+        body.innerHTML = html;
+        return;
+    }
+
+    if (!predictions || !predictions.length) {
+        body.innerHTML = '<div class="map-panel-placeholder">No demand data available for this time.</div>';
+        return;
+    }
+
+    // Sort by demand descending (closed buildings last)
+    const sorted = [...predictions].sort((a, b) => {
+        const da = a.Demand_Prediction < 0 ? -1 : a.Demand_Prediction;
+        const db = b.Demand_Prediction < 0 ? -1 : b.Demand_Prediction;
+        return db - da;
+    });
+
+    let html = '<div class="map-detail-section-title">Building Demand</div>';
+    sorted.forEach(item => {
+        const demand = item.Demand_Prediction;
+        const percent = demand < 0 ? 0 : Math.round(demand * 100);
+        const color = demandColor(demand);
+        const statusText = demand < 0 ? 'Closed' : demandStatus(demand);
+        const displayName = MAP_LABELS[item.Building] || item.Building;
+
+        html += `
+            <div class="map-building-row" onclick="selectMapBuilding('${item.Building.replace(/'/g, "\\'")}')">
+                <div class="map-building-dot" style="background:${color};"></div>
+                <span class="map-building-name">${displayName}</span>
+                <span class="map-building-status" style="color:${color};">${statusText}</span>
+                <span class="map-building-percent">${percent}%</span>
+            </div>
+        `;
+    });
+    body.innerHTML = html;
+}
+
+function selectMapBuilding(building) {
+    selectedBuilding = building;
+    const now = new Date();
+    selectedDateStr = now.toISOString().slice(0, 10);
+    navigateTo('view-calendar-in');
+}
+
+// Auto-refresh map every 5 minutes
+let mapRefreshInterval = null;
+function startMapAutoRefresh() {
+    if (mapRefreshInterval) clearInterval(mapRefreshInterval);
+    mapRefreshInterval = setInterval(() => {
+        const mapView = document.getElementById('view-map');
+        if (mapView && mapView.classList.contains('active')) {
+            renderMapMarkers();
+        }
+    }, 300000); // 5 minutes
+}
