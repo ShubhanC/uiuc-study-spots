@@ -8,7 +8,7 @@
 let selectedWeek = 1;
 let selectedDay = 'Monday';
 let selectedHour = 12;
-let selectedBuilding = 'Grainger Library'; // will be updated after fetching building list
+let selectedBuilding = 'Grainger Library'; // internal name (CSV)
 let allBuildings = [];
 
 // Selected date string in ISO format (YYYY‑MM‑DD)
@@ -301,7 +301,11 @@ async function renderHourlyBars() {
         return;
     }
     try {
-        const res = await fetch(`/api/calendar/${encodeURIComponent(selectedBuilding)}?week=${selectedWeek}`);
+        const encodedBuilding = encodeURIComponent(selectedBuilding);
+        const res = await fetch(`/api/calendar/${encodedBuilding}?week=${selectedWeek}`);
+        if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+        }
         const data = await res.json();
         const calendar = data.calendar || {};
         const dayData = calendar[selectedDay] || {};
@@ -343,6 +347,7 @@ async function renderHourlyBars() {
             chart.appendChild(container);
         }
     } catch (e) {
+        console.error('Error loading chart data:', e);
         chart.innerHTML = '<p style="color:#c00;padding:20px;">Error loading chart data.</p>';
     }
 }
@@ -364,7 +369,7 @@ async function updateDayDetail() {
     }
 
     // Check if this date is in a semester
-    const info = dateToWeekInfo(selectedDateStr);
+    const info = await dateToWeekInfo(selectedDateStr);
     const inSemester = info && info.inSemester;
 
     if (!inSemester) {
